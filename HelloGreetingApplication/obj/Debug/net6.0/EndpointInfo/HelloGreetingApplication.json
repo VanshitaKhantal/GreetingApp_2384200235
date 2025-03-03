@@ -5,10 +5,26 @@
     "version": "1.0"
   },
   "paths": {
-    "/HelloGreeting": {
+    "/HelloGreeting/get-personalized-greeting": {
       "get": {
         "tags": [
           "HelloGreeting"
+        ],
+        "parameters": [
+          {
+            "name": "firstName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lastName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {

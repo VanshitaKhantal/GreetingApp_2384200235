@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
-    "Method": "GetGreeting",
-    "RelativePath": "HelloGreeting",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "Delete",
     "RelativePath": "HelloGreeting/delete-greeting",
     "HttpMethod": "DELETE",
@@ -33,6 +23,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "GetPersonalizedGreeting",
+    "RelativePath": "HelloGreeting/get-personalized-greeting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

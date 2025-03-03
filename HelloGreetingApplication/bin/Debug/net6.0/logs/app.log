@@ -114,3 +114,87 @@
 2025-03-03 23:43:39.9136 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetGreeting (HelloGreetingApplication) in 36.0885ms
 2025-03-03 23:43:39.9659 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetGreeting (HelloGreetingApplication)'
 2025-03-03 23:43:39.9708 INFO Request finished HTTP/2 GET https://localhost:7112/HelloGreeting - - - 200 - application/json;+charset=utf-8 187.1978ms
+2025-03-04 00:17:40.9438 INFO Application is starting...
+2025-03-04 00:17:47.5385 INFO Now listening on: https://localhost:7112
+2025-03-04 00:17:47.5730 INFO Now listening on: http://localhost:5049
+2025-03-04 00:17:47.7557 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 00:17:47.7624 INFO Hosting environment: Development
+2025-03-04 00:17:47.8665 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 00:17:59.6775 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting - -
+2025-03-04 00:18:01.1691 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting - - - 404 0 - 1495.5831ms
+2025-03-04 00:18:39.6957 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting/get-personalized-greeting - -
+2025-03-04 00:18:39.9073 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:18:40.3801 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:18:40.8796 INFO GET request received for personalized greeting with FirstName: , LastName: 
+2025-03-04 00:18:41.0114 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:18:41.0574 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 564.3041ms
+2025-03-04 00:18:42.0496 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:18:42.0605 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting/get-personalized-greeting - - - 200 - application/json;+charset=utf-8 2364.7518ms
+2025-03-04 00:21:04.9413 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 67
+2025-03-04 00:21:04.9509 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:04.9509 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:04.9509 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 67 - 405 0 - 17.1816ms
+2025-03-04 00:21:14.6107 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 67
+2025-03-04 00:21:14.6107 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:14.6107 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:14.6107 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 67 - 405 0 - 8.8369ms
+2025-03-04 00:21:31.5065 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 2
+2025-03-04 00:21:31.5391 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:31.5546 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:31.5716 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 2 - 405 0 - 65.1180ms
+2025-03-04 00:21:37.4546 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 2
+2025-03-04 00:21:37.4789 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:37.4861 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:37.5105 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 2 - 405 0 - 55.8876ms
+2025-03-04 00:21:49.2313 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65
+2025-03-04 00:21:49.2982 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:49.3174 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 00:21:49.3361 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65 - 405 0 - 104.7359ms
+2025-03-04 00:21:54.9595 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65
+2025-03-04 00:21:54.9801 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:21:55.0122 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:21:55.0122 INFO GET request received for personalized greeting with FirstName: , LastName: 
+2025-03-04 00:21:55.0284 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:21:55.0284 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 28.4019ms
+2025-03-04 00:21:55.0951 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:21:55.1197 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65 - 200 - application/json;+charset=utf-8 160.0985ms
+2025-03-04 00:22:04.9340 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65
+2025-03-04 00:22:04.9638 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:22:04.9655 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:22:05.0150 INFO GET request received for personalized greeting with FirstName: , LastName: 
+2025-03-04 00:22:05.0150 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:22:05.0298 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 32.1885ms
+2025-03-04 00:22:05.0957 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:22:05.1367 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting application/json 65 - 200 - application/json;+charset=utf-8 202.6450ms
+2025-03-04 00:29:09.1291 INFO Application is starting...
+2025-03-04 00:29:15.3142 INFO Now listening on: https://localhost:7112
+2025-03-04 00:29:15.3661 INFO Now listening on: http://localhost:5049
+2025-03-04 00:29:15.5781 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 00:29:15.6191 INFO Hosting environment: Development
+2025-03-04 00:29:15.6191 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 00:29:20.8120 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting - -
+2025-03-04 00:29:22.1060 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting - - - 404 0 - 1303.7653ms
+2025-03-04 00:31:01.5630 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?firstName=Vanshita&lastName=Khantal application/json 2
+2025-03-04 00:31:01.5917 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:01.7006 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:31:01.9644 INFO GET request received for personalized greeting with FirstName: Vanshita, LastName: Khantal
+2025-03-04 00:31:01.9904 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:31:02.0085 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 294.1921ms
+2025-03-04 00:31:02.0085 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:02.0085 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?firstName=Vanshita&lastName=Khantal application/json 2 - 200 - application/json;+charset=utf-8 447.6321ms
+2025-03-04 00:31:19.6904 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?firstName=Vanshita application/json 2
+2025-03-04 00:31:20.1569 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:20.5363 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:31:20.6176 INFO GET request received for personalized greeting with FirstName: Vanshita, LastName: 
+2025-03-04 00:31:20.6176 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:31:20.6222 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 7.6283ms
+2025-03-04 00:31:20.6222 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:20.6222 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?firstName=Vanshita application/json 2 - 200 - application/json;+charset=utf-8 941.6099ms
+2025-03-04 00:31:43.3793 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?lastName=Khantal application/json 2
+2025-03-04 00:31:43.3793 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:43.3793 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 00:31:43.3875 INFO GET request received for personalized greeting with FirstName: , LastName: Khantal
+2025-03-04 00:31:43.3875 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 00:31:43.3875 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 7.9744ms
+2025-03-04 00:31:43.3875 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 00:31:43.3875 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?lastName=Khantal application/json 2 - 200 - application/json;+charset=utf-8 16.6966ms

@@ -1,7 +1,4 @@
-﻿using BusinessLayer.Interface;
-using System;
-
-namespace BusinessLayer.Service
+﻿namespace BusinessLayer.Service
 {
     /// <summary>
     /// Business Logic Layer (BL) implementation for greeting service.
@@ -9,12 +6,27 @@ namespace BusinessLayer.Service
     public class GreetingBL : IGreetingBL
     {
         /// <summary>
-        /// Returns a simple greeting message.
+        /// Generates a personalized greeting message based on available user attributes.
         /// </summary>
-        /// <returns>String containing "Hello World".</returns>
-        public string GetGreeting()
+        /// <param name="firstName">User's first name (optional).</param>
+        /// <param name="lastName">User's last name (optional).</param>
+        /// <returns>Personalized greeting message.</returns>
+        public string GetGreeting(string? firstName = null, string? lastName = null)
         {
-            return "Hello World";
+            if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
+            {
+                return $"Hello, {firstName} {lastName}!";
+            }
+            if (!string.IsNullOrEmpty(firstName))
+            {
+                return $"Hello, {firstName}!";
+            }
+            if (!string.IsNullOrEmpty(lastName))
+            {
+                return $"Hello, {lastName}!";
+            }
+            return "Hello World!";
         }
     }
 }
+

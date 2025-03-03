@@ -1,4 +1,3 @@
-using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Model;
 using NLog;
@@ -28,11 +27,23 @@ namespace HelloGreetingApplication.Controllers
         /// </summary>
         /// <returns>JSON response with a greeting message.</returns>
         [HttpGet]
-        public IActionResult GetGreeting()
+        [Route("get-personalized-greeting")]
+        public IActionResult GetPersonalizedGreeting(string? firstName, string? lastName)
         {
-            var message = _greetingBL.GetGreeting();
-            return Ok(new { Message = message });
+            logger.Info($"GET request received for personalized greeting with FirstName: {firstName}, LastName: {lastName}");
+
+            string message = _greetingBL.GetGreeting(firstName, lastName);
+
+            ResponseModel<string> responseModel = new ResponseModel<string>
+            {
+                Success = true,
+                Message = "Greeting generated successfully",
+                Data = message
+            };
+
+            return Ok(responseModel);
         }
+
         /// <summary>
         /// Logger instance for capturing logs
         /// </summary>

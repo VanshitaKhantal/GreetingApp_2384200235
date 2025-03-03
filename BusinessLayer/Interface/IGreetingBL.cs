@@ -1,17 +1,12 @@
 ﻿using System;
 
-namespace BusinessLayer.Interface
+public interface IGreetingBL
 {
     /// <summary>
-    /// Interface for the Greeting Business Logic Layer (BL).
-    /// Defines the contract for greeting-related operations.
+    /// Generates a personalized greeting message based on user attributes.
     /// </summary>
-    public interface IGreetingBL
-    {
-        /// <summary>
-        /// Retrieves a simple greeting message.
-        /// </summary>
-        /// <returns>A string containing the greeting message.</returns>
-        string GetGreeting();
-    }
+    /// <param name="firstName">User's first name (optional).</param>
+    /// <param name="lastName">User's last name (optional).</param>
+    /// <returns>Personalized greeting message.</returns>
+    string GetGreeting(string? firstName = null, string? lastName = null);
 }
