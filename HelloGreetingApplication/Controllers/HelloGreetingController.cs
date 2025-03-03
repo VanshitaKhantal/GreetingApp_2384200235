@@ -1,3 +1,4 @@
+using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.Model;
 using NLog;
@@ -11,6 +12,27 @@ namespace HelloGreetingApplication.Controllers
     [Route("[controller]")]
     public class HelloGreetingController : ControllerBase
     {
+        private readonly IGreetingBL _greetingBL;
+
+        /// <summary>
+        /// Constructor to initialize the controller with Greeting Business Logic Layer.
+        /// </summary>
+        /// <param name="greetingBL">Instance of IGreetingBL for handling greetings.</param>
+        public HelloGreetingController(IGreetingBL greetingBL)
+        {
+            _greetingBL = greetingBL;
+        }
+
+        /// <summary>
+        /// Default GET method to retrieve a greeting message.
+        /// </summary>
+        /// <returns>JSON response with a greeting message.</returns>
+        [HttpGet]
+        public IActionResult GetGreeting()
+        {
+            var message = _greetingBL.GetGreeting();
+            return Ok(new { Message = message });
+        }
         /// <summary>
         /// Logger instance for capturing logs
         /// </summary>

@@ -9,3 +9,15 @@ C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\RepositoryLayer\ob
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.sourcelink.json
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll

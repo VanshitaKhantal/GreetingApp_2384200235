@@ -9,3 +9,15 @@ C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\ModelLayer\obj\Deb
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 C:\Users\khant\OneDrive\Desktop\Task\HelloGreetingApplication\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

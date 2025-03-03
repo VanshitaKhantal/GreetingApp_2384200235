@@ -77,3 +77,40 @@
 2025-03-03 19:44:59.2332 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 973.3145ms
 2025-03-03 19:44:59.4111 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
 2025-03-03 19:44:59.4360 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.8848ms
+2025-03-03 23:42:57.4831 INFO Application is starting...
+2025-03-03 23:43:05.4729 INFO Now listening on: https://localhost:7112
+2025-03-03 23:43:05.5065 INFO Now listening on: http://localhost:5049
+2025-03-03 23:43:05.6775 INFO Application started. Press Ctrl+C to shut down.
+2025-03-03 23:43:05.6973 INFO Hosting environment: Development
+2025-03-03 23:43:05.7126 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-03 23:43:15.1665 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-03 23:43:17.1094 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-03 23:43:17.1094 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1972.7405ms
+2025-03-03 23:43:18.0004 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 890.9309ms
+2025-03-03 23:43:18.3221 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-03 23:43:18.3384 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-03 23:43:18.3384 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-03 23:43:18.3384 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-03 23:43:18.3384 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-03 23:43:18.5817 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-03 23:43:19.1077 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-03 23:43:19.1375 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-03 23:43:19.2869 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 948.4310ms
+2025-03-03 23:43:19.5116 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1172.4301ms
+2025-03-03 23:43:19.5279 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 420.2231ms
+2025-03-03 23:43:19.9023 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-03 23:43:19.9656 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-03 23:43:20.0615 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 1739.3266ms
+2025-03-03 23:43:20.0615 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1722.9680ms
+2025-03-03 23:43:20.6886 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-03 23:43:20.7099 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 2371.2845ms
+2025-03-03 23:43:21.1393 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2001.7983ms
+2025-03-03 23:43:21.4820 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-03 23:43:21.5353 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.3241ms
+2025-03-03 23:43:39.7835 INFO Request starting HTTP/2 GET https://localhost:7112/HelloGreeting - -
+2025-03-03 23:43:39.8147 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetGreeting (HelloGreetingApplication)'
+2025-03-03 23:43:39.8649 INFO Route matched with {action = "GetGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetGreeting() on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-03 23:43:39.8898 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-03 23:43:39.9136 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetGreeting (HelloGreetingApplication) in 36.0885ms
+2025-03-03 23:43:39.9659 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetGreeting (HelloGreetingApplication)'
+2025-03-03 23:43:39.9708 INFO Request finished HTTP/2 GET https://localhost:7112/HelloGreeting - - - 200 - application/json;+charset=utf-8 187.1978ms
