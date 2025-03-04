@@ -72,5 +72,31 @@ namespace RepositoryLayer.Service
                 throw new Exception("Error retrieving all greetings", ex);
             }
         }
+
+        /// <summary>
+        /// Updates an existing greeting message in the database.
+        /// </summary>
+        /// <param name="id">ID of the greeting to update.</param>
+        /// <param name="newMessage">New message content.</param>
+        /// <returns>True if updated successfully, false otherwise.</returns>
+        public bool UpdateGreeting(int id, string newMessage)
+        {
+            try
+            {
+                var greeting = _context.Greetings.FirstOrDefault(g => g.Id == id);
+                if (greeting == null)
+                {
+                    return false; // Greeting not found
+                }
+
+                greeting.Message = newMessage;
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating greeting message", ex);
+            }
+        }
     }
 }

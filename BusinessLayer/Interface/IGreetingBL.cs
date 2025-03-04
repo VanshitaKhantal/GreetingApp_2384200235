@@ -13,4 +13,5 @@ public interface IGreetingBL
     void SaveGreeting(string message);
     UserEntity GetGreetingById(int id); // New method
     List<UserEntity> GetAllGreetings(); // New method
+    bool UpdateGreeting(int id, string newMessage);
 }

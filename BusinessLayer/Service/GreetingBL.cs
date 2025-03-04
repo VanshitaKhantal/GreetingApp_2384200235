@@ -47,6 +47,17 @@ namespace BusinessLayer.Service
         }
 
         /// <summary>
+        /// Updates a greeting message using the repository layer.
+        /// </summary>
+        /// <param name="id">The ID of the greeting to update.</param>
+        /// <param name="newMessage">The new message content.</param>
+        /// <returns>True if updated successfully, false otherwise.</returns>
+        public bool UpdateGreeting(int id, string newMessage)
+        {
+            return _greeting.UpdateGreeting(id, newMessage);
+        }
+
+        /// <summary>
         /// Generates a personalized greeting message based on available user attributes.
         /// </summary>
         /// <param name="firstName">User's first name (optional).</param>
