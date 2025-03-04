@@ -38,6 +38,15 @@ namespace BusinessLayer.Service
         }
 
         /// <summary>
+        /// Retrieves all greeting messages from the repository layer.
+        /// </summary>
+        /// <returns>List of all greeting messages.</returns>
+        public List<UserEntity> GetAllGreetings()
+        {
+            return _greeting.GetAllGreetings();
+        }
+
+        /// <summary>
         /// Generates a personalized greeting message based on available user attributes.
         /// </summary>
         /// <param name="firstName">User's first name (optional).</param>

@@ -56,5 +56,21 @@ namespace RepositoryLayer.Service
                 throw new Exception("Error retrieving greeting message", ex);
             }
         }
+
+        /// <summary>
+        /// Retrieves all greeting messages from the database.
+        /// </summary>
+        /// <returns>List of all greeting messages.</returns>
+        public List<UserEntity> GetAllGreetings()
+        {
+            try
+            {
+                return _context.Greetings.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error retrieving all greetings", ex);
+            }
+        }
     }
 }

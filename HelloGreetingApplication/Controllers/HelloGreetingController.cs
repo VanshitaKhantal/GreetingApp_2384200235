@@ -75,6 +75,27 @@ namespace HelloGreetingApplication.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("get-all-greetings")]
+        public IActionResult GetAllGreetings()
+        {
+            try
+            {
+                var greetings = _greetingBL.GetAllGreetings();
+                if (greetings == null || greetings.Count == 0)
+                {
+                    return NotFound(new { Success = false, Message = "No greetings found" });
+                }
+
+                return Ok(new { Success = true, Message = "Greetings retrieved successfully", Data = greetings });
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex, "Error retrieving all greetings");
+                return StatusCode(500, new { Success = false, Message = "An error occurred while retrieving the greetings" });
+            }
+        }
+
         /// <summary>
         /// Default GET method to retrieve a greeting message.
         /// </summary>

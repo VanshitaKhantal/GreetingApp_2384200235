@@ -58,6 +58,18 @@
         }
       }
     },
+    "/HelloGreeting/get-all-greetings": {
+      "get": {
+        "tags": [
+          "HelloGreeting"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/HelloGreeting/get-personalized-greeting": {
       "get": {
         "tags": [
