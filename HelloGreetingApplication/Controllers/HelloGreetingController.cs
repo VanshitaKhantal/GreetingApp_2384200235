@@ -12,6 +12,7 @@ namespace HelloGreetingApplication.Controllers
     public class HelloGreetingController : ControllerBase
     {
         private readonly IGreetingBL _greetingBL;
+        
 
         /// <summary>
         /// Constructor to initialize the controller with Greeting Business Logic Layer.
@@ -20,6 +21,19 @@ namespace HelloGreetingApplication.Controllers
         public HelloGreetingController(IGreetingBL greetingBL)
         {
             _greetingBL = greetingBL;
+        }
+
+        /// <summary>
+        /// Handles the HTTP POST request to save a greeting message.
+        /// </summary>
+        /// <param name="greetingModel">The greeting message model received from the request body.</param>
+        /// <returns>Returns an HTTP 200 OK response with a success message.</returns>
+        [HttpPost]
+        [Route("save")]
+        public IActionResult SaveGreeting(GreetingModel greetingModel)
+        {
+            _greetingBL.SaveGreetingMessage(greetingModel.Message);
+            return Ok(new { message = "Greeting saved successfully" });
         }
 
         /// <summary>

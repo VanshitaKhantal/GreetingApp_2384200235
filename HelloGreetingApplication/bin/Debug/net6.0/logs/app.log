@@ -198,3 +198,47 @@
 2025-03-04 00:31:43.3875 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 7.9744ms
 2025-03-04 00:31:43.3875 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
 2025-03-04 00:31:43.3875 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/get-personalized-greeting?lastName=Khantal application/json 2 - 200 - application/json;+charset=utf-8 16.6966ms
+2025-03-04 15:22:00.5076 INFO Application is starting...
+2025-03-04 15:22:05.7879 INFO Now listening on: https://localhost:7112
+2025-03-04 15:22:05.8124 INFO Now listening on: http://localhost:5049
+2025-03-04 15:22:06.7455 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 15:22:06.7508 INFO Hosting environment: Development
+2025-03-04 15:22:06.8015 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 15:22:15.7408 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting - -
+2025-03-04 15:22:16.4864 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting - - - 404 0 - 750.9458ms
+2025-03-04 15:22:45.7096 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting/save - -
+2025-03-04 15:22:45.7447 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:22:45.7536 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:22:45.7536 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting/save - - - 405 0 - 52.5353ms
+2025-03-04 15:23:23.8054 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting/save - -
+2025-03-04 15:23:23.8305 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:23:23.8395 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:23:23.8395 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting/save - - - 405 0 - 39.0609ms
+2025-03-04 15:23:25.1092 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting/save - -
+2025-03-04 15:23:25.2232 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:23:25.2232 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-04 15:23:25.2232 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting/save - - - 405 0 - 124.8697ms
+2025-03-04 15:24:10.2260 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting/get-personalized-greeting - -
+2025-03-04 15:24:10.2402 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 15:24:10.3033 INFO Route matched with {action = "GetPersonalizedGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonalizedGreeting(System.String, System.String) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 15:24:10.6687 INFO GET request received for personalized greeting with FirstName: , LastName: 
+2025-03-04 15:24:10.6883 INFO Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 15:24:10.7716 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication) in 419.3426ms
+2025-03-04 15:24:10.7716 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.GetPersonalizedGreeting (HelloGreetingApplication)'
+2025-03-04 15:24:10.7825 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting/get-personalized-greeting - - - 200 - application/json;+charset=utf-8 555.8867ms
+2025-03-04 15:24:11.4131 INFO Request starting HTTP/2 GET https://localhost:7112/favicon.ico - -
+2025-03-04 15:24:11.4131 INFO Request finished HTTP/2 GET https://localhost:7112/favicon.ico - - - 404 0 - 5.7971ms
+2025-03-04 15:26:28.3404 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/save application/json 71
+2025-03-04 15:26:28.3404 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 15:26:28.3535 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Model.GreetingModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 15:26:28.4536 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 15:26:28.4750 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 120.3938ms
+2025-03-04 15:26:28.4750 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 15:26:28.4750 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save application/json 71 - 200 - application/json;+charset=utf-8 140.5016ms
+2025-03-04 15:26:58.4740 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/save application/json 64
+2025-03-04 15:26:58.4740 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 15:26:58.4878 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Model.GreetingModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 15:26:58.4878 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 15:26:58.4878 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 7.1898ms
+2025-03-04 15:26:58.4878 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 15:26:58.4878 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save application/json 64 - 200 - application/json;+charset=utf-8 24.6069ms

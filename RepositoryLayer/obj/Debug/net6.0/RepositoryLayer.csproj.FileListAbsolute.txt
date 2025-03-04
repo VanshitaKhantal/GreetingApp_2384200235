@@ -21,3 +21,7 @@ C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLaye
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
