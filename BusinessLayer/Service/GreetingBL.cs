@@ -28,6 +28,16 @@ namespace BusinessLayer.Service
         }
 
         /// <summary>
+        /// Retrieves a greeting message by its ID from the repository layer.
+        /// </summary>
+        /// <param name="id">The unique ID of the greeting message.</param>
+        /// <returns>The greeting entity if found, otherwise null.</returns>
+        public UserEntity GetGreetingById(int id)
+        {
+            return _greeting.GetGreetingById(id);
+        }
+
+        /// <summary>
         /// Generates a personalized greeting message based on available user attributes.
         /// </summary>
         /// <param name="firstName">User's first name (optional).</param>

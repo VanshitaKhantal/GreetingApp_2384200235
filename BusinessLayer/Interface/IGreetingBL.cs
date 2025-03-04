@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelLayer.Entity;
+using System;
 
 public interface IGreetingBL
 {
@@ -10,4 +11,5 @@ public interface IGreetingBL
     /// <returns>Personalized greeting message.</returns>
     string GetGreeting(string? firstName = null, string? lastName = null);
     void SaveGreeting(string message);
+    UserEntity GetGreetingById(int id); // New method
 }

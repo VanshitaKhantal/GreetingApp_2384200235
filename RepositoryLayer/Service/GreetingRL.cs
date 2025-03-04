@@ -39,5 +39,22 @@ namespace RepositoryLayer.Service
                 throw new Exception("Error saving greeting message", ex);
             }
         }
+
+        /// <summary>
+        /// Retrieves a greeting message by its unique ID.
+        /// </summary>
+        /// <param name="id">The unique ID of the greeting message.</param>
+        /// <returns>The greeting entity if found, otherwise null.</returns>
+        public UserEntity GetGreetingById(int id)
+        {
+            try
+            {
+                return _context.Greetings.FirstOrDefault(g => g.Id == id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error retrieving greeting message", ex);
+            }
+        }
     }
 }
