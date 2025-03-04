@@ -1,30 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ModelLayer.Model;
+﻿using ModelLayer.Entity;
 using RepositoryLayer.Interface;
+using System;
+using RepositoryLayer;
 
 namespace RepositoryLayer.Service
 {
     /// <summary>
-    /// Repository Layer class for handling Greeting messages.
-    /// Implements the IGreetingRL interface to provide methods for saving greetings.
+    /// Repository Layer class responsible for handling database operations related to greetings.
+    /// Implements the IGreetingRL interface.
     /// </summary>
     public class GreetingRL : IGreetingRL
     {
-        // In-memory list to store greeting messages
-        private readonly List<GreetingModel> _greetings = new List<GreetingModel>();
+        // Dependency injection of the database context
+        private readonly AppDbContext _context;
 
         /// <summary>
-        /// Saves a greeting message to the in-memory list.
+        /// Constructor to initialize the repository layer with database context.
         /// </summary>
-        /// <param name="greetingModel">The greeting message object to be stored.</param>
-        public void SaveGreeting(GreetingModel greetingModel)
+        /// <param name="context">Instance of AppDbContext for database access.</param>
+        public GreetingRL(AppDbContext context)
         {
-            // Adding the greeting message to the list
-            _greetings.Add(greetingModel);
+            _context = context;
+        }
+
+        /// <summary>
+        /// Saves a greeting message into the database.
+        /// </summary>
+        /// <param name="greeting">The greeting message to be stored.</param>
+        public void SaveGreeting(UserEntity greeting)
+        {
+            try
+            {
+                _context.Greetings.Add(greeting);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error saving greeting message", ex);
+            }
         }
     }
 }

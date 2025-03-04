@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using ModelLayer.Entity;
 using ModelLayer.Model;
 using NLog;
 
@@ -12,7 +13,11 @@ namespace HelloGreetingApplication.Controllers
     public class HelloGreetingController : ControllerBase
     {
         private readonly IGreetingBL _greetingBL;
-        
+
+        /// <summary>
+        /// Logger instance for capturing logs
+        /// </summary>
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Constructor to initialize the controller with Greeting Business Logic Layer.
@@ -24,16 +29,24 @@ namespace HelloGreetingApplication.Controllers
         }
 
         /// <summary>
-        /// Handles the HTTP POST request to save a greeting message.
+        /// Add Post method to get greeting message
         /// </summary>
-        /// <param name="greetingModel">The greeting message model received from the request body.</param>
-        /// <returns>Returns an HTTP 200 OK response with a success message.</returns>
+        /// <param name="userEntity"></param>
+        /// <returns>greeting message</returns>
         [HttpPost]
-        [Route("save")]
-        public IActionResult SaveGreeting(GreetingModel greetingModel)
+        [Route("save-greeting")]
+        public IActionResult SaveGreeting(UserEntity userEntity)
         {
-            _greetingBL.SaveGreetingMessage(greetingModel.Message);
-            return Ok(new { message = "Greeting saved successfully" });
+            try
+            {
+                _greetingBL.SaveGreeting(userEntity.Message);
+                return Ok(new { Success = true, Message = "Greeting saved successfully" });
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex, "Error saving greeting");
+                return StatusCode(500, new { Success = false, Message = "An error occurred while saving the greeting" });
+            }
         }
 
         /// <summary>
@@ -58,10 +71,6 @@ namespace HelloGreetingApplication.Controllers
             return Ok(responseModel);
         }
 
-        /// <summary>
-        /// Logger instance for capturing logs
-        /// </summary>
-        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Get Method to get the greeting message

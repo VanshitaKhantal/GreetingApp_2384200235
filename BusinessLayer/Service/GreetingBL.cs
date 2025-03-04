@@ -1,4 +1,5 @@
-﻿using ModelLayer.Model;
+﻿using ModelLayer.Entity;
+using ModelLayer.Model;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
 
@@ -20,14 +21,9 @@ namespace BusinessLayer.Service
             _greeting = greeting;
         }
 
-        /// <summary>
-        /// Saves a greeting message by creating a new GreetingModel instance 
-        /// and passing it to the repository for storage.
-        /// </summary>
-        /// <param name="message">The greeting message to be saved.</param>
-        public void SaveGreetingMessage(string message)
+        public void SaveGreeting(string message)
         {
-            var greeting = new GreetingModel { Message = message };
+            var greeting = new UserEntity { Message = message };
             _greeting.SaveGreeting(greeting);
         }
 

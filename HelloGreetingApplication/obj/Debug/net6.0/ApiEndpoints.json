@@ -81,14 +81,14 @@
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "SaveGreeting",
-    "RelativePath": "HelloGreeting/save",
+    "RelativePath": "HelloGreeting/save-greeting",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "greetingModel",
-        "Type": "ModelLayer.Model.GreetingModel",
+        "Name": "userEntity",
+        "Type": "ModelLayer.Entity.UserEntity",
         "IsRequired": true
       }
     ],

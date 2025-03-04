@@ -242,3 +242,303 @@
 2025-03-04 15:26:58.4878 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 7.1898ms
 2025-03-04 15:26:58.4878 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
 2025-03-04 15:26:58.4878 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save application/json 64 - 200 - application/json;+charset=utf-8 24.6069ms
+2025-03-04 19:52:04.5896 INFO Application is starting...
+2025-03-04 19:52:05.7400 ERROR Application encountered an error and stopped.
+2025-03-04 19:52:34.4044 INFO Application is starting...
+2025-03-04 19:52:35.2654 ERROR Application encountered an error and stopped.
+2025-03-04 19:53:28.1644 INFO Application is starting...
+2025-03-04 19:53:28.6191 ERROR Application encountered an error and stopped.
+2025-03-04 19:53:40.0959 INFO Application is starting...
+2025-03-04 19:53:40.4613 ERROR Application encountered an error and stopped.
+2025-03-04 19:57:49.7384 INFO Application is starting...
+2025-03-04 19:57:54.1147 INFO Now listening on: https://localhost:7112
+2025-03-04 19:57:54.2777 INFO Now listening on: http://localhost:5049
+2025-03-04 19:57:54.8691 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 19:57:54.8716 INFO Hosting environment: Development
+2025-03-04 19:57:54.8716 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 19:58:10.7254 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 19:58:12.7167 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1998.3564ms
+2025-03-04 19:58:12.8346 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 19:58:13.1866 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 351.9039ms
+2025-03-04 19:58:13.3913 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 19:58:13.3913 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 19:58:13.3913 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 19:58:13.3913 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 19:58:13.3913 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 19:58:13.3913 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 5.5166ms
+2025-03-04 19:58:13.4133 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 19:58:13.4333 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 19.9530ms
+2025-03-04 19:58:13.5258 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 19:58:13.6412 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 249.8604ms
+2025-03-04 19:58:13.7719 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 19:58:13.7719 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 19:58:13.8356 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 437.0387ms
+2025-03-04 19:58:13.8356 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 444.3986ms
+2025-03-04 19:58:13.9579 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 19:58:14.0497 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 19:58:14.0623 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 664.8506ms
+2025-03-04 19:58:16.2174 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2259.5041ms
+2025-03-04 19:58:16.7735 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 19:58:16.8885 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.9581ms
+2025-03-04 19:58:44.7936 INFO Request starting HTTP/2 POST https://localhost:7112/HelloGreeting/save-greeting application/json 35
+2025-03-04 19:58:44.8254 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 19:58:44.9346 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.GreetingEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:04:47.1957 INFO Application is starting...
+2025-03-04 20:04:53.5926 INFO Now listening on: https://localhost:7112
+2025-03-04 20:04:53.6406 INFO Now listening on: http://localhost:5049
+2025-03-04 20:04:53.8524 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 20:04:53.8639 INFO Hosting environment: Development
+2025-03-04 20:04:53.8639 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 20:04:56.8432 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 20:04:59.1487 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2310.4672ms
+2025-03-04 20:04:59.2281 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 20:04:59.6497 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 421.6074ms
+2025-03-04 20:04:59.7566 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 20:04:59.7566 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 20:04:59.7566 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 20:04:59.7566 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 20:04:59.7566 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 20:04:59.8190 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 54.2122ms
+2025-03-04 20:05:00.9015 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 20:05:01.1166 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 20:05:01.1221 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 20:05:01.1257 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 20:05:01.1257 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 224.2594ms
+2025-03-04 20:05:01.1257 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 1380.4370ms
+2025-03-04 20:05:01.1434 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 1386.7191ms
+2025-03-04 20:05:01.1661 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 20:05:01.2051 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1442.1218ms
+2025-03-04 20:05:01.4917 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 20:05:01.4993 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1737.3854ms
+2025-03-04 20:05:02.0752 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 909.1177ms
+2025-03-04 20:05:02.3209 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 20:05:02.3843 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.3108ms
+2025-03-04 20:05:16.7101 INFO Request starting HTTP/2 POST https://localhost:7112/HelloGreeting/save-greeting application/json 33
+2025-03-04 20:05:16.7272 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:05:16.8198 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.GreetingEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:05:19.6412 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-04 20:05:35.6204 ERROR An error occurred using the connection to database 'GreetingAPI' on server 'VANSHITA\SQLEXPRESS'.
+2025-03-04 20:05:35.7746 ERROR An exception occurred in the database while saving changes for context type 'RepositoryLayer.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GreetingAPI" requested by the login. The login failed.
+Login failed for user 'Vanshita\khant'.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:c73140ec-f5df-4bef-88db-43e0e3277912
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-03-04 20:05:36.6160 ERROR Error saving greeting
+2025-03-04 20:05:36.6160 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 20:05:36.6708 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 19806.8003ms
+2025-03-04 20:05:36.6883 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:05:36.7388 INFO Request finished HTTP/2 POST https://localhost:7112/HelloGreeting/save-greeting application/json 33 - 500 - application/json;+charset=utf-8 20028.7513ms
+2025-03-04 20:08:35.0039 INFO Application is starting...
+2025-03-04 20:08:41.9036 INFO Now listening on: https://localhost:7112
+2025-03-04 20:08:41.9773 INFO Now listening on: http://localhost:5049
+2025-03-04 20:08:42.2799 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 20:08:42.2908 INFO Hosting environment: Development
+2025-03-04 20:08:42.2908 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 20:08:45.1235 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 20:08:46.0229 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 909.2141ms
+2025-03-04 20:08:46.0316 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 20:08:46.3808 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 349.8161ms
+2025-03-04 20:08:46.4289 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 20:08:46.4289 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 20:08:46.4289 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 20:08:46.4289 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 20:08:46.4289 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 20:08:46.4387 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 5.8562ms
+2025-03-04 20:08:46.4387 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 20:08:46.4540 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 20:08:46.5542 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 121.6810ms
+2025-03-04 20:08:46.5661 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 126.0051ms
+2025-03-04 20:08:46.5802 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 20:08:46.5802 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 20:08:46.5960 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 167.0176ms
+2025-03-04 20:08:46.5960 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 164.1978ms
+2025-03-04 20:08:46.6305 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 20:08:46.7130 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 20:08:46.7130 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 282.1205ms
+2025-03-04 20:08:47.0555 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 424.8726ms
+2025-03-04 20:08:47.1782 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 20:08:47.1988 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.5928ms
+2025-03-04 20:09:00.7994 INFO Request starting HTTP/2 POST https://localhost:7112/HelloGreeting/save-greeting application/json 33
+2025-03-04 20:09:00.8351 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:09:00.9146 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.UserEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:09:03.9659 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-04 20:09:15.8708 ERROR An error occurred using the connection to database 'GreetingAPI' on server 'VANSHITA\SQLEXPRESS'.
+2025-03-04 20:09:15.9925 ERROR An exception occurred in the database while saving changes for context type 'RepositoryLayer.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GreetingAPI" requested by the login. The login failed.
+Login failed for user 'Vanshita\khant'.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:27ba1778-e9ce-4f59-9322-df86fa535b2d
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-03-04 20:09:16.4713 ERROR Error saving greeting
+2025-03-04 20:09:16.4713 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 20:09:16.4976 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 15574.8402ms
+2025-03-04 20:09:16.4976 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:09:16.5572 INFO Request finished HTTP/2 POST https://localhost:7112/HelloGreeting/save-greeting application/json 33 - 500 - application/json;+charset=utf-8 15757.7755ms
+2025-03-04 20:10:37.4838 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 64
+2025-03-04 20:10:37.5120 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:10:37.5120 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.UserEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:10:37.6220 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-04 20:10:48.3966 ERROR An error occurred using the connection to database 'GreetingAPI' on server 'VANSHITA\SQLEXPRESS'.
+2025-03-04 20:10:48.5829 ERROR An exception occurred in the database while saving changes for context type 'RepositoryLayer.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GreetingAPI" requested by the login. The login failed.
+Login failed for user 'Vanshita\khant'.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:b73b6dff-1bcd-4560-aad6-d13f536f236d
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-03-04 20:11:00.3948 ERROR Error saving greeting
+2025-03-04 20:11:00.4626 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 20:11:00.4987 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 22980.0781ms
+2025-03-04 20:11:00.5278 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:11:00.5278 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 64 - 500 - application/json;+charset=utf-8 23045.5611ms
+2025-03-04 20:12:44.7148 INFO Application is starting...
+2025-03-04 20:12:46.0741 ERROR Application encountered an error and stopped.
+2025-03-04 20:13:31.4347 INFO Application is starting...
+2025-03-04 20:13:31.9766 ERROR Application encountered an error and stopped.
+2025-03-04 20:16:22.7026 INFO Application is starting...
+2025-03-04 20:16:29.2085 INFO Now listening on: https://localhost:7112
+2025-03-04 20:16:29.2388 INFO Now listening on: http://localhost:5049
+2025-03-04 20:16:29.4947 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 20:16:29.5339 INFO Hosting environment: Development
+2025-03-04 20:16:29.5893 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 20:16:31.4095 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 20:16:32.5578 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1158.4466ms
+2025-03-04 20:16:32.9416 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 20:16:33.6698 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 728.2080ms
+2025-03-04 20:16:33.7153 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 20:16:33.7153 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 20:16:33.7153 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 20:16:33.7153 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 20:16:33.7153 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 20:16:33.7299 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 12.4636ms
+2025-03-04 20:16:33.7299 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 20:16:33.7492 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 18.7460ms
+2025-03-04 20:16:33.7539 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 20:16:33.8160 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 20:16:34.2248 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 508.8765ms
+2025-03-04 20:16:34.2693 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 20:16:34.3003 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 585.0452ms
+2025-03-04 20:16:34.3661 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 20:16:34.3930 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 675.0885ms
+2025-03-04 20:16:34.5714 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 20:16:34.5821 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 866.0521ms
+2025-03-04 20:16:34.8644 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1048.2983ms
+2025-03-04 20:16:35.0285 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 20:16:35.0500 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 21.5108ms
+2025-03-04 20:17:59.7330 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 64
+2025-03-04 20:17:59.7483 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:17:59.8506 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.UserEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:18:03.1599 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-04 20:18:06.2697 INFO Executed DbCommand (324ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Greetings] ([Message])
+VALUES (@p0);
+SELECT [Id]
+FROM [Greetings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2025-03-04 20:18:07.3416 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 20:18:07.4054 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 7515.4009ms
+2025-03-04 20:18:07.4596 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:18:07.5476 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 64 - 200 - application/json;+charset=utf-8 7814.6066ms
+2025-03-04 20:18:36.3830 INFO Request starting HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 50
+2025-03-04 20:18:36.3922 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:18:36.3922 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SaveGreeting(ModelLayer.Entity.UserEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-04 20:18:36.5511 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-04 20:18:36.6270 INFO Executed DbCommand (59ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Greetings] ([Message])
+VALUES (@p0);
+SELECT [Id]
+FROM [Greetings]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2025-03-04 20:18:36.6270 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-04 20:18:36.6270 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 239.1633ms
+2025-03-04 20:18:36.6270 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-04 20:18:36.6270 INFO Request finished HTTP/1.1 POST https://localhost:7112/helloGreeting/save-greeting application/json 50 - 200 - application/json;+charset=utf-8 251.6688ms

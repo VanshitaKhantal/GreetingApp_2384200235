@@ -1,6 +1,8 @@
 using BusinessLayer.Service;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
+using RepositoryLayer;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Service;
 
@@ -19,6 +21,10 @@ try
     builder.Services.AddControllers();
     builder.Services.AddScoped<IGreetingBL, GreetingBL>();
     builder.Services.AddScoped<IGreetingRL, GreetingRL>();
+    var connectionString = builder.Configuration.GetConnectionString("SqlConnection");
+    builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 

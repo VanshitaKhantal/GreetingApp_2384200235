@@ -9,5 +9,5 @@ public interface IGreetingBL
     /// <param name="lastName">User's last name (optional).</param>
     /// <returns>Personalized greeting message.</returns>
     string GetGreeting(string? firstName = null, string? lastName = null);
-    void SaveGreetingMessage(string message);
+    void SaveGreeting(string message);
 }
