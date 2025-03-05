@@ -103,7 +103,7 @@ namespace HelloGreetingApplication.Controllers
         /// <param name="newMessage">The new greeting message.</param>
         /// <returns>Success or failure message.</returns>
         [HttpPut]
-        [Route("update-greeting")]
+        [Route("updategreeting")]
         public IActionResult UpdateGreeting(int id, string newMessage)
         {
             try
@@ -120,6 +120,32 @@ namespace HelloGreetingApplication.Controllers
             {
                 logger.Error(ex, "Error updating greeting message");
                 return StatusCode(500, new { Success = false, Message = "An error occurred while updating the greeting" });
+            }
+        }
+
+        /// <summary>
+        /// Deletes a greeting message by its ID.
+        /// </summary>
+        /// <param name="id">The ID of the greeting to delete.</param>
+        /// <returns>Success or failure message.</returns>
+        [HttpDelete]
+        [Route("delete-greeting-by-id")]
+        public IActionResult DeleteGreetingById(int id)
+        {
+            try
+            {
+                var isDeleted = _greetingBL.DeleteGreeting(id);
+                if (!isDeleted)
+                {
+                    return NotFound(new { Success = false, Message = "Greeting not found" });
+                }
+
+                return Ok(new { Success = true, Message = "Greeting deleted successfully" });
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex, "Error deleting greeting message");
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
             }
         }
 

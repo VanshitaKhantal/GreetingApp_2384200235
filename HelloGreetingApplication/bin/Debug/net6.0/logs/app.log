@@ -879,3 +879,803 @@ SELECT @@ROWCOUNT;
 2025-03-04 21:55:57.5873 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.UpdateGreeting (HelloGreetingApplication) in 19902.016ms
 2025-03-04 21:55:57.5873 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.UpdateGreeting (HelloGreetingApplication)'
 2025-03-04 21:55:58.0559 INFO Request finished HTTP/2 PUT https://localhost:7112/HelloGreeting/update-greeting/1?newMessage=What%20is%20your%20name%3F - 0 - 200 - application/json;+charset=utf-8 20541.7889ms
+2025-03-04 22:08:23.0379 INFO Application is starting...
+2025-03-04 22:08:30.5784 INFO Now listening on: https://localhost:7112
+2025-03-04 22:08:30.6478 INFO Now listening on: http://localhost:5049
+2025-03-04 22:08:31.0610 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:08:31.1740 INFO Hosting environment: Development
+2025-03-04 22:08:31.2376 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:08:33.8374 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:08:36.0148 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2202.6867ms
+2025-03-04 22:08:36.0480 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:08:36.7789 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 730.8643ms
+2025-03-04 22:08:36.9509 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:08:36.9509 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:08:36.9509 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:08:36.9509 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:08:36.9509 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:08:36.9564 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 4.7359ms
+2025-03-04 22:08:36.9564 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:08:37.0012 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:08:37.0619 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:08:37.1641 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 203.9274ms
+2025-03-04 22:08:37.1877 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 236.5362ms
+2025-03-04 22:08:37.2410 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:08:37.2501 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:08:37.2501 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 311.7960ms
+2025-03-04 22:08:37.2501 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 312.5948ms
+2025-03-04 22:08:37.6148 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:08:37.6148 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 666.6637ms
+2025-03-04 22:08:38.0870 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1025.0875ms
+2025-03-04 22:08:38.7328 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:08:38.7474 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:08:38.7474 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 21.9426ms
+2025-03-04 22:09:00.7645 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:09:00.7748 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 10.2236ms
+2025-03-04 22:09:00.8739 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:09:00.8739 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:09:00.8739 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:09:00.8768 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.9143ms
+2025-03-04 22:09:00.8768 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 13.5359ms
+2025-03-04 22:09:00.9266 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.6586ms
+2025-03-04 22:09:01.0935 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:09:01.0935 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - -
+2025-03-04 22:09:01.0935 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-04 22:09:01.0935 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - - - 200 628 image/png 5.9538ms
+2025-03-04 22:09:01.1200 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:09:01.1200 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 33.4507ms
+2025-03-04 22:09:58.9735 INFO Application is starting...
+2025-03-04 22:10:05.5096 INFO Now listening on: https://localhost:7112
+2025-03-04 22:10:05.5435 INFO Now listening on: http://localhost:5049
+2025-03-04 22:10:05.7860 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:10:05.8164 INFO Hosting environment: Development
+2025-03-04 22:10:05.8742 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:10:09.2407 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:10:12.9101 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 3698.3295ms
+2025-03-04 22:10:12.9591 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:10:13.9593 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1000.2361ms
+2025-03-04 22:10:14.3243 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:10:14.3558 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:10:14.3558 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:10:14.3558 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:10:14.3558 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:10:14.4517 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:10:14.7048 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:10:14.7834 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:10:15.1327 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 776.8376ms
+2025-03-04 22:10:15.1526 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 447.7538ms
+2025-03-04 22:10:15.1526 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 796.8614ms
+2025-03-04 22:10:15.4225 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:10:15.4225 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:10:15.5845 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 1260.1814ms
+2025-03-04 22:10:15.5845 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1216.8661ms
+2025-03-04 22:10:15.6346 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:10:15.6493 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1292.0344ms
+2025-03-04 22:10:16.0348 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1251.3604ms
+2025-03-04 22:10:16.3403 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:10:16.6721 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:10:16.7004 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 360.1037ms
+2025-03-04 22:13:38.2099 INFO Application is starting...
+2025-03-04 22:13:43.2681 INFO Now listening on: https://localhost:7112
+2025-03-04 22:13:43.3103 INFO Now listening on: http://localhost:5049
+2025-03-04 22:13:43.5693 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:13:43.6613 INFO Hosting environment: Development
+2025-03-04 22:13:43.7829 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:13:46.4802 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:13:47.2076 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 730.4443ms
+2025-03-04 22:13:47.2336 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:13:47.6408 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 407.0891ms
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:13:47.6796 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.6157ms
+2025-03-04 22:13:47.6796 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:13:47.7048 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:13:47.8027 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:13:48.0025 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 315.7134ms
+2025-03-04 22:13:48.0025 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 322.6786ms
+2025-03-04 22:13:48.1135 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:13:48.1135 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:13:48.1269 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 447.3038ms
+2025-03-04 22:13:48.1269 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 444.8842ms
+2025-03-04 22:13:48.2275 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:13:48.2406 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 560.5476ms
+2025-03-04 22:13:48.5727 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 770.0145ms
+2025-03-04 22:13:48.9750 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:13:49.0133 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:13:49.0412 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 66.1179ms
+2025-03-04 22:17:30.6447 INFO Application is starting...
+2025-03-04 22:17:37.3439 INFO Now listening on: https://localhost:7112
+2025-03-04 22:17:37.4391 INFO Now listening on: http://localhost:5049
+2025-03-04 22:17:37.6574 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:17:37.6716 INFO Hosting environment: Development
+2025-03-04 22:17:37.6967 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:17:40.8136 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:17:41.8754 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1068.0822ms
+2025-03-04 22:17:41.9504 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:17:42.4371 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 486.6736ms
+2025-03-04 22:17:42.4733 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:17:42.4733 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:17:42.4733 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:17:42.4902 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:17:42.4902 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:17:42.4902 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.9785ms
+2025-03-04 22:17:42.4902 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:17:42.5121 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 18.0403ms
+2025-03-04 22:17:42.5121 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:17:42.5237 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:17:42.8474 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 372.7987ms
+2025-03-04 22:17:42.9169 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:17:42.9420 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:17:42.9420 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 475.6325ms
+2025-03-04 22:17:43.1580 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 667.7328ms
+2025-03-04 22:17:43.2172 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:17:43.2185 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 742.9448ms
+2025-03-04 22:17:43.5228 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1010.1647ms
+2025-03-04 22:17:43.7048 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:17:43.7338 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:17:43.7590 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 54.1217ms
+2025-03-04 22:18:43.2223 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:18:43.3090 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 86.6813ms
+2025-03-04 22:18:43.4198 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:18:43.4804 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:18:43.5084 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:18:43.5183 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:18:43.5183 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:18:43.5183 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:18:43.5183 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:18:43.5835 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 60.8840ms
+2025-03-04 22:18:43.5835 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:18:43.6542 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 173.9593ms
+2025-03-04 22:18:43.6776 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 155.4509ms
+2025-03-04 22:18:43.7371 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:18:43.7371 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 220.9671ms
+2025-03-04 22:18:43.7371 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:18:43.7511 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 232.7489ms
+2025-03-04 22:18:43.7511 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 331.3624ms
+2025-03-04 22:18:43.8343 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:18:43.8343 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 326.8091ms
+2025-03-04 22:18:44.4052 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:18:44.4998 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:18:44.4998 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 99.1336ms
+2025-03-04 22:20:19.4760 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:20:19.5560 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 80.0316ms
+2025-03-04 22:20:19.7461 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:20:19.8473 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:20:19.8473 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:20:19.9492 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 101.8697ms
+2025-03-04 22:20:19.9981 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 251.9789ms
+2025-03-04 22:20:20.5088 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 653.9943ms
+2025-03-04 22:20:20.7319 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:20:20.7348 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - -
+2025-03-04 22:20:20.7754 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-04 22:20:20.7754 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - - - 200 628 image/png 55.7104ms
+2025-03-04 22:20:20.7754 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:20:20.8065 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 74.5781ms
+2025-03-04 22:22:04.3154 INFO Application is starting...
+2025-03-04 22:22:09.1261 INFO Now listening on: https://localhost:7112
+2025-03-04 22:22:09.1857 INFO Now listening on: http://localhost:5049
+2025-03-04 22:22:09.4859 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:22:09.4859 INFO Hosting environment: Development
+2025-03-04 22:22:09.4859 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:22:12.2678 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:22:14.8706 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:22:14.9011 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2711.7958ms
+2025-03-04 22:22:15.7857 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 914.9063ms
+2025-03-04 22:22:16.0521 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:22:16.0521 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:22:16.0521 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:22:16.0521 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:22:16.0521 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:22:16.0724 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 19.4497ms
+2025-03-04 22:22:16.0880 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:22:16.1180 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:22:16.2064 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:22:16.2828 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 230.5715ms
+2025-03-04 22:22:16.3514 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 263.4265ms
+2025-03-04 22:22:16.3514 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:22:16.3681 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:22:16.3759 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 321.9767ms
+2025-03-04 22:22:16.3759 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 324.1633ms
+2025-03-04 22:22:16.6388 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:22:16.6403 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 587.4155ms
+2025-03-04 22:22:16.8885 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 682.1681ms
+2025-03-04 22:22:17.1867 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:22:17.2846 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:22:17.2996 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 112.8676ms
+2025-03-04 22:27:12.2861 INFO Application is starting...
+2025-03-04 22:27:17.6204 INFO Now listening on: https://localhost:7112
+2025-03-04 22:27:17.6404 INFO Now listening on: http://localhost:5049
+2025-03-04 22:27:17.8973 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:27:17.9204 INFO Hosting environment: Development
+2025-03-04 22:27:17.9872 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:27:20.2744 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:27:23.0777 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2835.7975ms
+2025-03-04 22:27:23.2649 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:27:24.4537 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1188.6638ms
+2025-03-04 22:27:24.7598 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:27:24.7656 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:27:24.7656 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:27:24.7656 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:27:24.7656 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:27:25.3809 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:27:25.3956 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:27:25.6818 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:27:25.7645 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 383.5622ms
+2025-03-04 22:27:25.7645 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 998.9467ms
+2025-03-04 22:27:25.7659 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 991.6157ms
+2025-03-04 22:27:25.7659 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:27:25.7659 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:27:26.0024 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 1232.1856ms
+2025-03-04 22:27:26.0024 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1229.9229ms
+2025-03-04 22:27:26.1669 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:27:26.1911 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1419.0957ms
+2025-03-04 22:27:26.4883 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1092.7150ms
+2025-03-04 22:27:26.6819 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:27:26.7084 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:27:26.7999 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 117.9423ms
+2025-03-04 22:30:53.9914 INFO Application is starting...
+2025-03-04 22:30:54.3362 ERROR Application encountered an error and stopped.
+2025-03-04 22:33:34.1195 INFO Application is starting...
+2025-03-04 22:33:40.3906 INFO Now listening on: https://localhost:7112
+2025-03-04 22:33:40.4275 INFO Now listening on: http://localhost:5049
+2025-03-04 22:33:40.6686 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:33:40.6733 INFO Hosting environment: Development
+2025-03-04 22:33:40.6733 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:33:43.1522 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:33:45.2289 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2081.7677ms
+2025-03-04 22:33:45.2504 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:33:46.0630 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 812.5285ms
+2025-03-04 22:33:46.2694 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:33:46.3069 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:33:46.3069 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:33:46.3069 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:33:46.3069 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:33:46.9152 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:33:46.9900 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:33:47.2857 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:33:47.3014 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:33:47.3014 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 996.7412ms
+2025-03-04 22:33:47.3014 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 1037.2172ms
+2025-03-04 22:33:47.3470 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1038.1083ms
+2025-03-04 22:33:47.3470 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:33:47.3774 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 462.1891ms
+2025-03-04 22:33:47.3774 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1070.7226ms
+2025-03-04 22:33:47.8278 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:33:47.8433 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1534.8218ms
+2025-03-04 22:33:48.1605 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1170.4330ms
+2025-03-04 22:33:48.3253 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:33:48.3534 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:33:48.4171 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 91.7755ms
+2025-03-04 22:38:06.2786 INFO Application is starting...
+2025-03-04 22:38:12.8015 INFO Now listening on: https://localhost:7112
+2025-03-04 22:38:12.8740 INFO Now listening on: http://localhost:5049
+2025-03-04 22:38:13.1547 INFO Application started. Press Ctrl+C to shut down.
+2025-03-04 22:38:13.1626 INFO Hosting environment: Development
+2025-03-04 22:38:13.1762 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-04 22:38:18.0342 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-04 22:38:19.5524 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1527.4797ms
+2025-03-04 22:38:19.8622 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-04 22:38:20.9645 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1102.2104ms
+2025-03-04 22:38:21.0013 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-04 22:38:21.0013 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-04 22:38:21.0013 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-04 22:38:21.0013 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-04 22:38:21.0013 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-04 22:38:21.3465 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 343.8429ms
+2025-03-04 22:38:21.3465 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-04 22:38:21.3643 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 15.5928ms
+2025-03-04 22:38:21.6685 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-04 22:38:24.2381 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-04 22:38:24.2381 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-04 22:38:24.2381 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-04 22:38:24.4801 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 3478.7386ms
+2025-03-04 22:38:24.5712 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 3569.8217ms
+2025-03-04 22:38:24.9824 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 3980.4416ms
+2025-03-04 22:38:26.1287 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-04 22:38:26.2343 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 5232.6864ms
+2025-03-04 22:38:26.7661 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5097.4952ms
+2025-03-04 22:38:27.1229 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-04 22:38:27.3417 ERROR An unhandled exception has occurred while executing the request.
+2025-03-04 22:38:27.3789 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 255.9407ms
+2025-03-05 10:20:44.6408 INFO Application is starting...
+2025-03-05 10:20:50.2852 INFO Now listening on: https://localhost:7112
+2025-03-05 10:20:50.3315 INFO Now listening on: http://localhost:5049
+2025-03-05 10:20:50.6053 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:20:50.6309 INFO Hosting environment: Development
+2025-03-05 10:20:50.6512 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:21:02.2272 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:21:04.2449 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2030.0993ms
+2025-03-05 10:21:04.3353 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:21:04.7615 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 426.0935ms
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:21:05.1701 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 5.8547ms
+2025-03-05 10:21:05.1701 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:21:05.1918 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 12.9571ms
+2025-03-05 10:21:05.1918 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:21:05.2033 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:21:05.3000 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 129.7895ms
+2025-03-05 10:21:05.7403 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:21:06.1449 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 974.7154ms
+2025-03-05 10:21:06.2166 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:21:06.2600 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 1089.1302ms
+2025-03-05 10:21:06.5231 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:21:06.5322 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1361.5075ms
+2025-03-05 10:21:06.6392 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1444.3567ms
+2025-03-05 10:21:07.2130 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:21:07.3203 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:21:07.4034 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 191.4768ms
+2025-03-05 10:30:10.6204 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:30:10.8485 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 228.1255ms
+2025-03-05 10:30:10.9181 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:30:10.9221 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:30:10.9221 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:30:10.9406 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:30:10.9406 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:30:10.9406 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 16.2662ms
+2025-03-05 10:30:10.9406 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:30:10.9875 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:30:11.0373 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 115.2045ms
+2025-03-05 10:30:11.0373 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 99.1797ms
+2025-03-05 10:30:11.0373 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 125.6929ms
+2025-03-05 10:30:11.5160 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 575.1755ms
+2025-03-05 10:30:11.6565 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:30:11.8096 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - -
+2025-03-05 10:30:11.8415 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-05 10:30:11.8912 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:30:11.8912 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - - - 200 628 image/png 35.9446ms
+2025-03-05 10:30:11.9091 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 252.5076ms
+2025-03-05 10:31:28.8402 INFO Application is starting...
+2025-03-05 10:31:31.6792 INFO Now listening on: https://localhost:7112
+2025-03-05 10:31:31.7571 INFO Now listening on: http://localhost:5049
+2025-03-05 10:31:31.9673 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:31:31.9820 INFO Hosting environment: Development
+2025-03-05 10:31:32.0166 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:31:34.7828 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:31:36.9118 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 2147.8727ms
+2025-03-05 10:31:37.3071 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:31:39.9878 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 2680.6446ms
+2025-03-05 10:31:40.5795 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:31:40.6425 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:31:40.6425 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:31:40.6425 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:31:40.6425 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:31:42.1946 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:31:43.3736 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:31:43.3881 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 2743.7365ms
+2025-03-05 10:31:45.7026 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:31:45.7026 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:31:45.7026 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 3521.0646ms
+2025-03-05 10:31:45.7235 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 5080.8931ms
+2025-03-05 10:31:45.7530 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 5173.3783ms
+2025-03-05 10:31:45.7530 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 5118.4906ms
+2025-03-05 10:31:47.7630 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:31:47.9132 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 7270.3659ms
+2025-03-05 10:31:48.4025 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:31:48.9793 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 576.6947ms
+2025-03-05 10:31:49.2569 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:31:49.3697 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:31:49.3918 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 134.7966ms
+2025-03-05 10:31:56.6388 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:31:56.6802 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 41.6146ms
+2025-03-05 10:31:56.9472 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:31:56.9878 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:31:56.9878 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:31:57.0122 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 64.9184ms
+2025-03-05 10:31:57.0261 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 38.2740ms
+2025-03-05 10:31:57.2819 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 294.1193ms
+2025-03-05 10:31:57.4581 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:31:57.5209 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - -
+2025-03-05 10:31:57.6928 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:31:57.6928 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-05 10:31:57.7223 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 264.1735ms
+2025-03-05 10:31:57.7223 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - - - 200 628 image/png 203.2165ms
+2025-03-05 10:33:32.3571 INFO Application is starting...
+2025-03-05 10:33:39.2845 INFO Now listening on: https://localhost:7112
+2025-03-05 10:33:39.5054 INFO Now listening on: http://localhost:5049
+2025-03-05 10:33:40.2856 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:33:40.3398 INFO Hosting environment: Development
+2025-03-05 10:33:40.4075 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:33:42.1175 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:33:43.7203 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1656.8438ms
+2025-03-05 10:33:43.7987 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:33:44.3362 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 537.3663ms
+2025-03-05 10:33:44.4007 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:33:44.4007 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:33:44.4007 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:33:44.4007 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:33:44.4007 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:33:44.4402 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 36.5403ms
+2025-03-05 10:33:44.7268 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:33:44.9865 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:33:45.3340 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 932.0171ms
+2025-03-05 10:33:45.3577 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 371.1091ms
+2025-03-05 10:33:45.3815 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:33:45.3815 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:33:45.3951 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 994.3950ms
+2025-03-05 10:33:45.3951 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 992.0198ms
+2025-03-05 10:33:45.4656 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:33:45.5936 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:33:45.5936 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1194.3647ms
+2025-03-05 10:33:46.0321 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 566.5238ms
+2025-03-05 10:33:46.2942 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:33:46.3788 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:33:46.4123 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 118.1020ms
+2025-03-05 10:36:33.6961 INFO Application is starting...
+2025-03-05 10:36:38.6855 INFO Now listening on: https://localhost:7112
+2025-03-05 10:36:38.7400 INFO Now listening on: http://localhost:5049
+2025-03-05 10:36:38.9540 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:36:38.9815 INFO Hosting environment: Development
+2025-03-05 10:36:39.0833 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:36:41.6060 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:36:43.2275 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1635.6496ms
+2025-03-05 10:36:43.3292 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:36:43.8663 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 537.0119ms
+2025-03-05 10:36:44.1023 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:36:44.1023 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:36:44.1023 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:36:44.1023 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:36:44.1023 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:36:44.1121 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 6.6346ms
+2025-03-05 10:36:44.1121 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:36:44.2186 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:36:44.3896 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 266.3433ms
+2025-03-05 10:36:44.3916 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:36:44.4079 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:36:44.5357 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 431.8722ms
+2025-03-05 10:36:44.5357 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 437.5229ms
+2025-03-05 10:36:44.6224 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:36:44.6690 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 563.5750ms
+2025-03-05 10:36:44.7340 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:36:44.7560 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 651.3251ms
+2025-03-05 10:36:44.8972 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 678.5846ms
+2025-03-05 10:36:45.1991 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:36:45.3816 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:36:45.4208 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 221.7486ms
+2025-03-05 10:40:20.1639 INFO Application is starting...
+2025-03-05 10:40:25.2799 INFO Now listening on: https://localhost:7112
+2025-03-05 10:40:25.3425 INFO Now listening on: http://localhost:5049
+2025-03-05 10:40:25.7795 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:40:25.9383 INFO Hosting environment: Development
+2025-03-05 10:40:25.9737 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:40:38.5499 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:40:39.5024 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 970.5334ms
+2025-03-05 10:40:39.6393 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:40:40.1331 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 493.7399ms
+2025-03-05 10:40:40.2019 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:40:40.2047 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:40:40.2047 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:40:40.2047 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:40:40.2047 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:40:40.2047 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.1506ms
+2025-03-05 10:40:40.2047 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:40:40.2501 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:40:40.2849 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:40:40.3733 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 168.5190ms
+2025-03-05 10:40:40.3833 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 174.4562ms
+2025-03-05 10:40:40.3833 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:40:40.7549 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:40:40.7549 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 561.2874ms
+2025-03-05 10:40:40.7836 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 578.4123ms
+2025-03-05 10:40:40.8360 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:40:40.8360 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 632.2694ms
+2025-03-05 10:40:41.1395 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 854.5652ms
+2025-03-05 10:40:41.2705 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:40:41.2904 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:40:41.3567 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 86.2847ms
+2025-03-05 10:47:43.8066 INFO Application is starting...
+2025-03-05 10:47:48.6079 INFO Now listening on: https://localhost:7112
+2025-03-05 10:47:48.6447 INFO Now listening on: http://localhost:5049
+2025-03-05 10:47:48.8878 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:47:48.9081 INFO Hosting environment: Development
+2025-03-05 10:47:49.0328 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:47:50.6290 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:47:51.9656 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 1341.7769ms
+2025-03-05 10:47:52.1122 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:47:52.6726 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 560.2351ms
+2025-03-05 10:47:52.8934 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:47:52.8934 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:47:52.8934 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:47:52.8934 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:47:52.8934 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:47:53.2942 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:47:53.3948 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:47:53.3948 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 106.1476ms
+2025-03-05 10:47:53.3948 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:47:53.4178 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 524.3912ms
+2025-03-05 10:47:53.4178 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:47:53.4415 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 545.8513ms
+2025-03-05 10:47:53.4415 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 549.0463ms
+2025-03-05 10:47:53.4415 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 550.9014ms
+2025-03-05 10:47:53.4415 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:47:53.8886 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:47:53.8970 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 1001.8290ms
+2025-03-05 10:47:54.4977 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1051.4603ms
+2025-03-05 10:47:54.8248 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:47:54.9479 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:47:54.9873 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 162.4672ms
+2025-03-05 10:49:40.5946 INFO Application is starting...
+2025-03-05 10:49:42.7578 INFO Now listening on: https://localhost:7112
+2025-03-05 10:49:42.8215 INFO Now listening on: http://localhost:5049
+2025-03-05 10:49:43.0585 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:49:43.0585 INFO Hosting environment: Development
+2025-03-05 10:49:43.0585 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:49:44.2438 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:49:48.2139 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 3976.9623ms
+2025-03-05 10:49:48.2434 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:49:48.9901 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 746.6864ms
+2025-03-05 10:49:49.3602 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:49:49.3602 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:49:49.3602 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:49:49.3602 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:49:49.3602 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:49:49.3797 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 16.0529ms
+2025-03-05 10:49:49.3797 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:49:49.3917 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 11.5249ms
+2025-03-05 10:49:49.4257 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:49:49.4770 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 115.0590ms
+2025-03-05 10:49:49.4950 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:49:49.5119 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 151.4115ms
+2025-03-05 10:49:49.5193 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:49:49.5397 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:49:49.6102 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 246.8115ms
+2025-03-05 10:49:49.9712 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:49:50.0055 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 643.4397ms
+2025-03-05 10:49:50.4303 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 890.5646ms
+2025-03-05 10:49:50.6737 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:49:50.7611 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:49:50.8920 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 218.2564ms
+2025-03-05 10:51:10.0087 INFO Application is starting...
+2025-03-05 10:51:15.1370 INFO Now listening on: https://localhost:7112
+2025-03-05 10:51:15.1962 INFO Now listening on: http://localhost:5049
+2025-03-05 10:51:15.3560 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:51:15.3618 INFO Hosting environment: Development
+2025-03-05 10:51:15.3840 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:51:17.1350 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 10:51:17.9747 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 846.3224ms
+2025-03-05 10:51:18.0211 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 10:51:18.5415 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 520.3962ms
+2025-03-05 10:51:18.8854 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 10:51:18.9140 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 10:51:18.9663 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 10:51:18.9934 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 79.3669ms
+2025-03-05 10:51:19.1625 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 10:51:19.1739 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 288.4295ms
+2025-03-05 10:51:19.2813 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 10:51:19.3656 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 10:51:19.3656 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 86.7381ms
+2025-03-05 10:51:19.3944 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 10:51:19.4775 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 10:51:19.4775 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 86.9860ms
+2025-03-05 10:51:19.8077 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 10:51:19.8160 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 8.3600ms
+2025-03-05 10:51:20.0421 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 10:51:20.0421 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 7.9034ms
+2025-03-05 10:51:20.0623 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 10:51:20.6445 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 582.2258ms
+2025-03-05 10:51:21.0019 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 10:51:21.0905 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 10:51:21.0997 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 97.7457ms
+2025-03-05 10:52:55.1097 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28
+2025-03-05 10:52:55.1783 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28 - 404 0 - 68.7965ms
+2025-03-05 10:53:03.3754 INFO Request starting HTTP/1.1 GET https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 10:53:03.3939 INFO Executing endpoint '405 HTTP Method Not Supported'
+2025-03-05 10:53:03.3939 INFO Executed endpoint '405 HTTP Method Not Supported'
+2025-03-05 10:53:03.3939 INFO Request finished HTTP/1.1 GET https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 405 0 - 20.7845ms
+2025-03-05 10:56:04.0261 INFO Application is starting...
+2025-03-05 10:56:10.1253 INFO Now listening on: https://localhost:7112
+2025-03-05 10:56:10.1906 INFO Now listening on: http://localhost:5049
+2025-03-05 10:56:10.5365 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 10:56:10.6205 INFO Hosting environment: Development
+2025-03-05 10:56:10.6631 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 10:56:13.3051 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting - -
+2025-03-05 10:56:14.4452 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting - - - 404 0 - 1145.0160ms
+2025-03-05 10:56:47.1484 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 10:56:47.1484 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:56:47.2055 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 10:56:49.6037 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 10:56:56.8649 INFO Executed DbCommand (553ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 10:56:56.9601 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 10:56:56.9851 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 9769.087ms
+2025-03-05 10:56:56.9851 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:56:57.0075 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 9859.1254ms
+2025-03-05 10:57:12.7670 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28
+2025-03-05 10:57:12.8102 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28 - 404 0 - 43.1945ms
+2025-03-05 10:57:41.5714 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28
+2025-03-05 10:57:41.5800 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28 - 404 0 - 8.5410ms
+2025-03-05 10:58:04.0499 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 10:58:04.7086 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:04.8939 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 10:58:05.4059 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 10:58:06.0531 INFO Executed DbCommand (336ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 10:58:06.0531 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 10:58:06.0531 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 695.7057ms
+2025-03-05 10:58:06.0531 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:06.0531 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 2009.5877ms
+2025-03-05 10:58:25.2104 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 10:58:25.2252 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:25.2252 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 10:58:25.5741 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 10:58:25.7100 INFO Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 10:58:25.7227 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 10:58:25.7227 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 493.4142ms
+2025-03-05 10:58:25.7227 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:25.7227 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 514.4091ms
+2025-03-05 10:58:30.5107 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 10:58:30.5247 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:30.5247 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 10:58:30.5546 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 10:58:30.5707 INFO Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 10:58:30.5707 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 10:58:30.5707 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 29.4296ms
+2025-03-05 10:58:30.5707 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 10:58:30.5707 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 61.0296ms
+2025-03-05 11:00:51.5615 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 11:00:51.5704 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:00:51.5704 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 11:00:51.5704 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 11:00:51.5881 INFO Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 11:00:51.5881 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 11:00:51.5881 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 17.9606ms
+2025-03-05 11:00:51.5881 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:00:51.6029 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 41.4527ms
+2025-03-05 11:01:02.7251 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28
+2025-03-05 11:01:02.7251 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:01:02.7251 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 11:01:02.7251 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 11:01:02.7251 INFO Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 11:01:02.7251 INFO Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 11:01:02.7251 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 8.3506ms
+2025-03-05 11:01:02.7251 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:01:02.7397 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id application/json 28 - 404 - application/json;+charset=utf-8 14.5525ms
+2025-03-05 11:01:20.1683 INFO Request starting HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28
+2025-03-05 11:01:20.1773 INFO Request finished HTTP/1.1 DELETE https://localhost:7112/helloGreeting/delete-greeting-by-id/1 application/json 28 - 404 0 - 8.9723ms
+2025-03-05 11:03:38.3687 INFO Application is starting...
+2025-03-05 11:03:42.8385 INFO Now listening on: https://localhost:7112
+2025-03-05 11:03:42.8642 INFO Now listening on: http://localhost:5049
+2025-03-05 11:03:43.6726 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 11:03:43.6726 INFO Hosting environment: Development
+2025-03-05 11:03:43.6894 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 11:03:45.2777 INFO Request starting HTTP/2 GET https://localhost:7112/helloGreeting - -
+2025-03-05 11:03:46.6478 INFO Request finished HTTP/2 GET https://localhost:7112/helloGreeting - - - 404 0 - 1373.9640ms
+2025-03-05 11:05:20.4061 INFO Application is starting...
+2025-03-05 11:05:24.6773 INFO Now listening on: https://localhost:7112
+2025-03-05 11:05:24.7172 INFO Now listening on: http://localhost:5049
+2025-03-05 11:05:24.8954 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 11:05:24.9025 INFO Hosting environment: Development
+2025-03-05 11:05:24.9025 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 11:05:26.4850 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - -
+2025-03-05 11:05:27.4175 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - - - 301 0 - 940.9739ms
+2025-03-05 11:05:27.4600 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 11:05:27.8904 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 430.2856ms
+2025-03-05 11:05:27.9658 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-05 11:05:27.9658 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-05 11:05:27.9658 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-05 11:05:27.9689 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-05 11:05:27.9689 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 11:05:27.9921 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 20.9063ms
+2025-03-05 11:05:27.9921 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:05:28.2492 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-05 11:05:28.2492 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-05 11:05:28.2626 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-05 11:05:28.2888 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 200 202 text/css 320.8566ms
+2025-03-05 11:05:28.2888 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 293.1453ms
+2025-03-05 11:05:28.2888 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 200 229223 application/javascript 319.9621ms
+2025-03-05 11:05:28.3273 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 200 154948 text/css 361.3746ms
+2025-03-05 11:05:28.5068 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:05:28.5774 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-05 11:05:28.5774 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 200 1466324 application/javascript 609.9612ms
+2025-03-05 11:05:29.0303 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 523.4991ms
+2025-03-05 11:05:29.1739 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:05:29.2426 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 11:05:29.2577 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 83.7593ms
+2025-03-05 11:06:01.7046 INFO Application is starting...
+2025-03-05 11:06:06.0010 INFO Now listening on: https://localhost:7112
+2025-03-05 11:06:06.0487 INFO Now listening on: http://localhost:5049
+2025-03-05 11:06:06.2462 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 11:06:06.2546 INFO Hosting environment: Development
+2025-03-05 11:06:06.2546 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 11:06:08.9489 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 11:06:10.4220 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1473.9250ms
+2025-03-05 11:06:10.7741 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:06:10.7741 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 11:06:10.7741 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:06:10.9435 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 169.3856ms
+2025-03-05 11:06:11.3582 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 581.8014ms
+2025-03-05 11:06:12.0585 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1282.0969ms
+2025-03-05 11:06:12.2947 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:06:12.3435 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 11:06:12.3604 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 65.7012ms
+2025-03-05 11:06:33.3909 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 11:06:33.4111 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 20.2180ms
+2025-03-05 11:06:33.5753 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:06:33.5753 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 11:06:33.5753 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:06:33.5840 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 9.1009ms
+2025-03-05 11:06:33.5840 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 9.1643ms
+2025-03-05 11:06:33.6395 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.3395ms
+2025-03-05 11:06:33.7553 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:06:33.7685 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 11:06:33.7685 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 18.3886ms
+2025-03-05 11:07:06.5483 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:07:06.5937 ERROR An unhandled exception has occurred while executing the request.
+2025-03-05 11:07:06.6982 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 500 - text/html;+charset=utf-8 149.8332ms
+2025-03-05 11:07:08.2697 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:07:08.6488 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:07:09.5067 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 1237.0110ms
+2025-03-05 11:07:16.1514 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7502.6699ms
+2025-03-05 11:07:16.4581 INFO Request starting HTTP/2 GET https://localhost:7112/favicon.ico - -
+2025-03-05 11:07:16.5715 INFO Request finished HTTP/2 GET https://localhost:7112/favicon.ico - - - 404 0 - 113.3283ms
+2025-03-05 11:09:05.6232 INFO Application is starting...
+2025-03-05 11:09:12.8532 INFO Now listening on: https://localhost:7112
+2025-03-05 11:09:12.8716 INFO Now listening on: http://localhost:5049
+2025-03-05 11:09:13.1534 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 11:09:13.2130 INFO Hosting environment: Development
+2025-03-05 11:09:13.2204 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 11:09:15.4130 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 11:09:17.4807 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:09:17.4807 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 11:09:17.5090 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:09:17.2608 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1853.0588ms
+2025-03-05 11:09:17.5227 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 41.9576ms
+2025-03-05 11:09:17.5227 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 41.0374ms
+2025-03-05 11:09:18.0024 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 493.4165ms
+2025-03-05 11:09:18.3199 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:09:18.3931 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.1485ms
+2025-03-05 11:11:05.2105 INFO Application is starting...
+2025-03-05 11:11:11.1846 INFO Now listening on: https://localhost:7112
+2025-03-05 11:11:11.2051 INFO Now listening on: http://localhost:5049
+2025-03-05 11:11:11.4705 INFO Application started. Press Ctrl+C to shut down.
+2025-03-05 11:11:11.4705 INFO Hosting environment: Development
+2025-03-05 11:11:11.4705 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-05 11:11:14.4122 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-05 11:11:17.5327 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-05 11:11:17.5436 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-05 11:11:17.5436 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-05 11:11:17.3690 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 2961.0722ms
+2025-03-05 11:11:17.5649 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 32.2079ms
+2025-03-05 11:11:17.5895 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 45.9560ms
+2025-03-05 11:11:18.0988 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 554.9155ms
+2025-03-05 11:11:18.3433 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-05 11:11:18.3783 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 34.9065ms
+2025-03-05 11:12:45.1211 INFO Request starting HTTP/2 DELETE https://localhost:7112/HelloGreeting/delete-greeting-by-id?id=1 - -
+2025-03-05 11:12:45.8680 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:12:45.9391 INFO Route matched with {action = "DeleteGreetingById", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteGreetingById(Int32) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-05 11:12:48.1990 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-05 11:12:50.6306 INFO Executed DbCommand (206ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[Message]
+FROM [Greetings] AS [g]
+WHERE [g].[Id] = @__id_0
+2025-03-05 11:12:51.2017 INFO Executed DbCommand (100ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Greetings]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2025-03-05 11:12:51.6632 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-05 11:12:51.7509 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 5751.5231ms
+2025-03-05 11:12:51.8977 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
+2025-03-05 11:12:51.9819 INFO Request finished HTTP/2 DELETE https://localhost:7112/HelloGreeting/delete-greeting-by-id?id=1 - - - 200 - application/json;+charset=utf-8 6860.6987ms

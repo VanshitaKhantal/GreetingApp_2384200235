@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
+    "Method": "DeleteGreetingById",
+    "RelativePath": "HelloGreeting/delete-greeting-by-id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "GetAllGreetings",
     "RelativePath": "HelloGreeting/get-all-greetings",
     "HttpMethod": "GET",
@@ -139,7 +155,7 @@
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
     "Method": "UpdateGreeting",
-    "RelativePath": "HelloGreeting/update-greeting/{id}",
+    "RelativePath": "HelloGreeting/updategreeting",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -147,7 +163,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "newMessage",

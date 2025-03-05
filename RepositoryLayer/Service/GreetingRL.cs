@@ -98,5 +98,30 @@ namespace RepositoryLayer.Service
                 throw new Exception("Error updating greeting message", ex);
             }
         }
+
+        /// <summary>
+        /// Deletes an existing greeting message from the database.
+        /// </summary>
+        /// <param name="id">ID of the greeting to delete.</param>
+        /// <returns>True if deleted successfully, false otherwise.</returns>
+        public bool DeleteGreeting(int id)
+        {
+            try
+            {
+                var greeting = _context.Greetings.FirstOrDefault(g => g.Id == id);
+                if (greeting == null)
+                {
+                    return false; // Greeting not found
+                }
+
+                _context.Greetings.Remove(greeting);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error deleting greeting message", ex);
+            }
+        }
     }
 }

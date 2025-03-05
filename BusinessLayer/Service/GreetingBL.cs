@@ -58,6 +58,16 @@ namespace BusinessLayer.Service
         }
 
         /// <summary>
+        /// Deletes a greeting message using the repository layer.
+        /// </summary>
+        /// <param name="id">The ID of the greeting to delete.</param>
+        /// <returns>True if deleted successfully, false otherwise.</returns>
+        public bool DeleteGreeting(int id)
+        {
+            return _greeting.DeleteGreeting(id);
+        }
+
+        /// <summary>
         /// Generates a personalized greeting message based on available user attributes.
         /// </summary>
         /// <param name="firstName">User's first name (optional).</param>

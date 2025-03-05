@@ -70,7 +70,7 @@
         }
       }
     },
-    "/HelloGreeting/update-greeting/{id}": {
+    "/HelloGreeting/updategreeting": {
       "put": {
         "tags": [
           "HelloGreeting"
@@ -78,8 +78,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -90,6 +89,28 @@
             "in": "query",
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/HelloGreeting/delete-greeting-by-id": {
+      "delete": {
+        "tags": [
+          "HelloGreeting"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

@@ -8,5 +8,6 @@ namespace RepositoryLayer.Interface
         UserEntity GetGreetingById(int id); // New method to retrieve greeting by ID
         List<UserEntity> GetAllGreetings(); // New method to list all greetings
         bool UpdateGreeting(int id, string newMessage); // New method to update greeting
+        bool DeleteGreeting(int id); // New method to delete a greeting
     }
 }
