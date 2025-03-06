@@ -1679,3 +1679,31 @@ SELECT @@ROWCOUNT;
 2025-03-05 11:12:51.7509 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication) in 5751.5231ms
 2025-03-05 11:12:51.8977 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.DeleteGreetingById (HelloGreetingApplication)'
 2025-03-05 11:12:51.9819 INFO Request finished HTTP/2 DELETE https://localhost:7112/HelloGreeting/delete-greeting-by-id?id=1 - - - 200 - application/json;+charset=utf-8 6860.6987ms
+2025-03-06 12:33:39.8771 INFO Application is starting...
+2025-03-06 12:33:50.4037 INFO Now listening on: https://localhost:7112
+2025-03-06 12:33:50.4391 INFO Now listening on: http://localhost:5049
+2025-03-06 12:33:50.7197 INFO Application started. Press Ctrl+C to shut down.
+2025-03-06 12:33:50.7317 INFO Hosting environment: Development
+2025-03-06 12:33:50.7317 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-06 12:34:01.2678 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-06 12:34:03.5056 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 2247.7590ms
+2025-03-06 12:34:03.5452 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - -
+2025-03-06 12:34:03.5452 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - -
+2025-03-06 12:34:03.5452 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - -
+2025-03-06 12:34:03.5452 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - -
+2025-03-06 12:34:03.5452 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-06 12:34:03.6860 INFO The file /index.css was not modified
+2025-03-06 12:34:03.6984 INFO The file /swagger-ui-bundle.js was not modified
+2025-03-06 12:34:03.7152 INFO The file /swagger-ui.css was not modified
+2025-03-06 12:34:03.7257 INFO The file /swagger-ui-standalone-preset.js was not modified
+2025-03-06 12:34:03.7416 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 196.1227ms
+2025-03-06 12:34:03.7982 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - - - 304 - text/css 253.5105ms
+2025-03-06 12:34:03.7982 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 253.0340ms
+2025-03-06 12:34:03.8217 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 276.2993ms
+2025-03-06 12:34:03.8331 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - - 304 - text/css 287.7658ms
+2025-03-06 12:34:03.8331 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-06 12:34:03.8331 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-06 12:34:03.9675 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 133.8582ms
+2025-03-06 12:34:05.1533 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1319.5060ms
+2025-03-06 12:34:05.3490 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-06 12:34:05.3776 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 28.5293ms

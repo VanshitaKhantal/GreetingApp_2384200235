@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Middleware.GlobalExceptionHandler;
 using ModelLayer.Entity;
 using ModelLayer.Model;
 using NLog;
@@ -18,6 +19,11 @@ namespace HelloGreetingApplication.Controllers
         /// Logger instance for capturing logs
         /// </summary>
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
+
+        ///// <summary>
+        ///// Ilogger instance for capturing logs
+        ///// </summary>
+        //private Microsoft.Extensions.Logging.ILogger _logger;
 
         /// <summary>
         /// Constructor to initialize the controller with Greeting Business Logic Layer.
@@ -44,7 +50,7 @@ namespace HelloGreetingApplication.Controllers
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Error saving greeting");
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
                 return StatusCode(500, new { Success = false, Message = "An error occurred while saving the greeting" });
             }
         }
@@ -70,7 +76,7 @@ namespace HelloGreetingApplication.Controllers
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Error retrieving greeting message");
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
                 return StatusCode(500, new { Success = false, Message = "An error occurred while retrieving the greeting" });
             }
         }
@@ -91,7 +97,7 @@ namespace HelloGreetingApplication.Controllers
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Error retrieving all greetings");
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
                 return StatusCode(500, new { Success = false, Message = "An error occurred while retrieving the greetings" });
             }
         }
@@ -118,7 +124,7 @@ namespace HelloGreetingApplication.Controllers
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Error updating greeting message");
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
                 return StatusCode(500, new { Success = false, Message = "An error occurred while updating the greeting" });
             }
         }
@@ -144,7 +150,7 @@ namespace HelloGreetingApplication.Controllers
             }
             catch (Exception ex)
             {
-                logger.Error(ex, "Error deleting greeting message");
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
                 return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
             }
         }
@@ -157,18 +163,26 @@ namespace HelloGreetingApplication.Controllers
         [Route("get-personalized-greeting")]
         public IActionResult GetPersonalizedGreeting(string? firstName, string? lastName)
         {
-            logger.Info($"GET request received for personalized greeting with FirstName: {firstName}, LastName: {lastName}");
-
-            string message = _greetingBL.GetGreeting(firstName, lastName);
-
-            ResponseModel<string> responseModel = new ResponseModel<string>
+            try
             {
-                Success = true,
-                Message = "Greeting generated successfully",
-                Data = message
-            };
+                logger.Info($"GET request received for personalized greeting with FirstName: {firstName}, LastName: {lastName}");
 
-            return Ok(responseModel);
+                string message = _greetingBL.GetGreeting(firstName, lastName);
+
+                ResponseModel<string> responseModel = new ResponseModel<string>
+                {
+                    Success = true,
+                    Message = "Greeting generated successfully",
+                    Data = message
+                };
+
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
         }
 
 
@@ -180,13 +194,21 @@ namespace HelloGreetingApplication.Controllers
         [Route("get-greeting")]
         public IActionResult Get()
         {
-            logger.Info("GET request received for greeting.");
+            try
+            {
+                logger.Info("GET request received for greeting.");
 
-            ResponseModel<string> responseModel = new ResponseModel<string>();
-            responseModel.Success = true;
-            responseModel.Message = "Hello to Greeting App API Endpoint";
-            responseModel.Data = "Hello, World!";
-            return Ok(responseModel);
+                ResponseModel<string> responseModel = new ResponseModel<string>();
+                responseModel.Success = true;
+                responseModel.Message = "Hello to Greeting App API Endpoint";
+                responseModel.Data = "Hello, World!";
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
         }
 
         /// <summary>
@@ -198,13 +220,21 @@ namespace HelloGreetingApplication.Controllers
         [Route("post-greeting")]
         public IActionResult Post(RequestModel requestModel)
         {
-            logger.Info($"POST request received with Key: {requestModel.Key}, Value: {requestModel.Value}");
+            try
+            {
+                logger.Info($"POST request received with Key: {requestModel.Key}, Value: {requestModel.Value}");
 
-            ResponseModel<string> responseModel = new ResponseModel<string>();
-            responseModel.Success = true;
-            responseModel.Message = "Request received successfully";
-            responseModel.Data = $"Key: {requestModel.Key}, Value: {requestModel.Value}";
-            return Ok(responseModel);
+                ResponseModel<string> responseModel = new ResponseModel<string>();
+                responseModel.Success = true;
+                responseModel.Message = "Request received successfully";
+                responseModel.Data = $"Key: {requestModel.Key}, Value: {requestModel.Value}";
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
         }
 
         /// <summary>
@@ -216,13 +246,22 @@ namespace HelloGreetingApplication.Controllers
         [Route("update-greeting")]
         public IActionResult Put(RequestModel requestModel)
         {
-            logger.Info($"PUT request received. Updating greeting to: {requestModel.Value}");
+            try
+            {
 
-            ResponseModel<string> responseModel = new ResponseModel<string>();
-            responseModel.Success = true;
-            responseModel.Message = "Greeting updated successfully";
-            responseModel.Data = requestModel.Value;
-            return Ok(responseModel);
+                logger.Info($"PUT request received. Updating greeting to: {requestModel.Value}");
+
+                ResponseModel<string> responseModel = new ResponseModel<string>();
+                responseModel.Success = true;
+                responseModel.Message = "Greeting updated successfully";
+                responseModel.Data = requestModel.Value;
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
         }
 
         /// <summary>
@@ -234,13 +273,21 @@ namespace HelloGreetingApplication.Controllers
         [Route("modify-greeting")]
         public IActionResult Patch(RequestModel requestModel)
         {
-            logger.Info($"PATCH request received. Modifying greeting with: {requestModel.Value}");
+            try
+            {
+                logger.Info($"PATCH request received. Modifying greeting with: {requestModel.Value}");
 
-            ResponseModel<string> responseModel = new ResponseModel<string>();
-            responseModel.Success = true;
-            responseModel.Message = "Greeting updated successfully";
-            responseModel.Data = requestModel.Value;
-            return Ok(responseModel);
+                ResponseModel<string> responseModel = new ResponseModel<string>();
+                responseModel.Success = true;
+                responseModel.Message = "Greeting updated successfully";
+                responseModel.Data = requestModel.Value;
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
         }
 
         /// <summary>
@@ -252,13 +299,21 @@ namespace HelloGreetingApplication.Controllers
         [Route("delete-greeting")]
         public IActionResult Delete(RequestModel requestModel)
         {
-            logger.Info($"DELETE request received. Removing greeting for key: {requestModel.Key}");
+            try
+            {
+                logger.Info($"DELETE request received. Removing greeting for key: {requestModel.Key}");
 
-            ResponseModel<string> responseModel = new ResponseModel<string>();
-            responseModel.Success = true;
-            responseModel.Message = "Greeting deleting successfully";
-            responseModel.Data = string.Empty;
-            return Ok(responseModel);
+                ResponseModel<string> responseModel = new ResponseModel<string>();
+                responseModel.Success = true;
+                responseModel.Message = "Greeting deleting successfully";
+                responseModel.Data = string.Empty;
+                return Ok(responseModel);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+            }
 
         }
     }
