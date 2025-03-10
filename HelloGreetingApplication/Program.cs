@@ -53,7 +53,8 @@ try
     builder.Services.AddControllers();
     builder.Services.AddScoped<IGreetingBL, GreetingBL>();
     builder.Services.AddScoped<IGreetingRL, GreetingRL>();
-    builder.Services.AddScoped<JwtHelper>(); 
+    builder.Services.AddScoped<JwtHelper>();
+    builder.Services.AddScoped<EmailService>();
     var connectionString = builder.Configuration.GetConnectionString("SqlConnection");
     builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
