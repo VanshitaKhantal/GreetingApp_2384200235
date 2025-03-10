@@ -2,12 +2,15 @@
 
 namespace ModelLayer.Entity
 {
+    /// <summary>
+    /// Represents a user entity stored in the database.
+    /// </summary>
     public class UserEntity
     {
-        [Key] // Primary Key
         public int Id { get; set; }
-
-        [Required] // Ensures message is not null
-        public string Message { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string Salt { get; set; }
+        public string? Message { get; set; }  // Nullable so it's optional
     }
 }
