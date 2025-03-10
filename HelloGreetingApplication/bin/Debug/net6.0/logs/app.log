@@ -2159,3 +2159,68 @@ SELECT @@ROWCOUNT;
 2025-03-10 12:17:20.7682 INFO Executed action UserController.ResetPassword (HelloGreetingApplication) in 335.9901ms
 2025-03-10 12:17:20.7682 INFO Executed endpoint 'UserController.ResetPassword (HelloGreetingApplication)'
 2025-03-10 12:17:20.7767 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/reset-password application/json 70 - 200 - text/plain;+charset=utf-8 374.1899ms
+2025-03-10 14:56:31.8719 INFO Application is starting...
+2025-03-10 14:56:38.1343 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-10 14:56:42.3586 INFO Now listening on: https://localhost:7112
+2025-03-10 14:56:42.3953 INFO Now listening on: http://localhost:5049
+2025-03-10 14:56:42.7601 INFO Application started. Press Ctrl+C to shut down.
+2025-03-10 14:56:42.7763 INFO Hosting environment: Development
+2025-03-10 14:56:42.7763 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-10 14:56:52.0869 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-10 14:56:54.8976 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 2829.0322ms
+2025-03-10 14:56:55.1624 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 14:56:55.1812 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-10 14:56:55.1812 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-10 14:56:55.2148 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 33.5155ms
+2025-03-10 14:56:55.2148 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 58.5043ms
+2025-03-10 14:56:55.7675 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 583.5943ms
+2025-03-10 14:56:56.4677 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-10 14:56:56.5883 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.4916ms
+2025-03-10 14:57:24.0724 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/login/Jwt application/json 54
+2025-03-10 14:57:24.3667 INFO Executing endpoint 'UserController.Login (HelloGreetingApplication)'
+2025-03-10 14:57:24.4472 INFO Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelLayer.Model.LoginModel) on controller UserController (HelloGreetingApplication).
+2025-03-10 14:57:25.2067 INFO Executed action UserController.Login (HelloGreetingApplication) in 748.9846ms
+2025-03-10 14:57:25.2217 INFO Executed endpoint 'UserController.Login (HelloGreetingApplication)'
+2025-03-10 14:57:25.2359 ERROR An unhandled exception has occurred while executing the request.
+2025-03-10 14:57:25.3829 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/login/Jwt application/json 54 - 500 - text/plain;+charset=utf-8 1310.9700ms
+2025-03-10 15:01:40.5033 INFO Application is starting...
+2025-03-10 15:01:46.1364 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-10 15:01:47.3213 INFO Now listening on: https://localhost:7112
+2025-03-10 15:01:47.3213 INFO Now listening on: http://localhost:5049
+2025-03-10 15:01:47.5151 INFO Application started. Press Ctrl+C to shut down.
+2025-03-10 15:01:47.5320 INFO Hosting environment: Development
+2025-03-10 15:01:47.5439 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\
+2025-03-10 15:01:49.4704 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - -
+2025-03-10 15:01:51.2734 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - - - 200 - text/html;charset=utf-8 1812.3636ms
+2025-03-10 15:01:51.3971 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 15:01:51.4613 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - -
+2025-03-10 15:01:51.4613 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - -
+2025-03-10 15:01:51.5829 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - - 200 12380 application/javascript;+charset=utf-8 190.7013ms
+2025-03-10 15:01:51.8047 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - - - 200 - application/javascript;charset=utf-8 343.7150ms
+2025-03-10 15:01:52.1890 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 727.5349ms
+2025-03-10 15:01:52.3314 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - -
+2025-03-10 15:01:52.3849 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.5305ms
+2025-03-10 15:02:10.9493 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/login/Jwt application/json 54
+2025-03-10 15:02:11.4725 INFO Executing endpoint 'UserController.Login (HelloGreetingApplication)'
+2025-03-10 15:02:11.5719 INFO Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ModelLayer.Model.LoginModel) on controller UserController (HelloGreetingApplication).
+2025-03-10 15:02:13.2264 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-10 15:02:13.3098 INFO Executed action UserController.Login (HelloGreetingApplication) in 1720.5405ms
+2025-03-10 15:02:13.3098 INFO Executed endpoint 'UserController.Login (HelloGreetingApplication)'
+2025-03-10 15:02:13.3572 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/login/Jwt application/json 54 - 200 - application/json;+charset=utf-8 2407.9107ms
+2025-03-10 15:02:35.2708 INFO Request starting HTTP/2 GET https://localhost:7112/api/User/secure-data - -
+2025-03-10 15:02:35.3130 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-10 15:02:35.3458 INFO AuthenticationScheme: Bearer was challenged.
+2025-03-10 15:02:35.3458 INFO Request finished HTTP/2 GET https://localhost:7112/api/User/secure-data - - - 401 0 - 77.4468ms
+2025-03-10 15:09:21.0727 INFO Request starting HTTP/1.1 GET https://localhost:7112/api/User/secure-data application/json 28
+2025-03-10 15:09:21.2796 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-10 15:09:21.3041 INFO AuthenticationScheme: Bearer was challenged.
+2025-03-10 15:09:21.5109 INFO Request finished HTTP/1.1 GET https://localhost:7112/api/User/secure-data application/json 28 - 401 0 - 441.0665ms
+2025-03-10 15:15:47.9366 INFO Request starting HTTP/1.1 GET https://localhost:7112/api/User/secure-data application/json 28
+2025-03-10 15:15:49.9079 INFO Executing endpoint 'UserController.SecureData (HelloGreetingApplication)'
+2025-03-10 15:15:49.9984 INFO Route matched with {action = "SecureData", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SecureData() on controller UserController (HelloGreetingApplication).
+2025-03-10 15:15:50.1190 INFO Executing OkObjectResult, writing value of type 'System.String'.
+2025-03-10 15:15:50.1398 INFO Executed action UserController.SecureData (HelloGreetingApplication) in 124.3911ms
+2025-03-10 15:15:50.1398 INFO Executed endpoint 'UserController.SecureData (HelloGreetingApplication)'
+2025-03-10 15:15:50.1398 INFO Request finished HTTP/1.1 GET https://localhost:7112/api/User/secure-data application/json 28 - 200 - text/plain;+charset=utf-8 2239.6357ms
