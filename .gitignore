@@ -1,4 +1,2 @@
 .vs
-HelloGreetingApplication/obj/
-
-HelloGreetingApplication/obj/
+HelloGreetingApplication/obj/Debug/net6.0/ref/HelloGreetingApplication.dll
