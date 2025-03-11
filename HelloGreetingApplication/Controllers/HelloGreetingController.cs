@@ -1,29 +1,21 @@
+using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Middleware.GlobalExceptionHandler;
-using ModelLayer.Entity;
 using ModelLayer.Model;
 using NLog;
+using RepositoryLayer.Entity;
 
 namespace HelloGreetingApplication.Controllers
 {
     /// <summary>
-    /// Class Providing API for HelloGreeting
+    /// API Controller for managing greetings.
     /// </summary>
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class HelloGreetingController : ControllerBase
     {
         private readonly IGreetingBL _greetingBL;
-
-        /// <summary>
-        /// Logger instance for capturing logs
-        /// </summary>
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
-
-        ///// <summary>
-        ///// Ilogger instance for capturing logs
-        ///// </summary>
-        //private Microsoft.Extensions.Logging.ILogger _logger;
 
         /// <summary>
         /// Constructor to initialize the controller with Greeting Business Logic Layer.
@@ -34,87 +26,83 @@ namespace HelloGreetingApplication.Controllers
             _greetingBL = greetingBL;
         }
 
-        /// <summary>
-        /// Add Post method to get greeting message
-        /// </summary>
-        /// <param name="userEntity"></param>
-        /// <returns>greeting message</returns>
-        [HttpPost]
-        [Route("save-greeting")]
-        public IActionResult SaveGreeting(UserEntity userEntity)
+        [HttpPost("save")]
+        public async Task<IActionResult> SaveGreeting(int userId, [FromBody] GreetingEntity greeting)
         {
+            if (greeting == null || string.IsNullOrWhiteSpace(greeting.Message))
+                return BadRequest(new { Success = false, Message = "Invalid input data" });
+
             try
             {
-                _greetingBL.SaveGreeting(userEntity.Message);
+                bool isSaved = await _greetingBL.SaveGreeting(userId, greeting.Message); // Use await here
+                if (!isSaved)
+                    return NotFound(new { Success = false, Message = "User not found" });
+
                 return Ok(new { Success = true, Message = "Greeting saved successfully" });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
+                logger.Error(ex, "Error saving greeting.");
                 return StatusCode(500, new { Success = false, Message = "An error occurred while saving the greeting" });
             }
         }
 
+
+
         /// <summary>
-        /// Retrieves a greeting message by its ID.
+        /// Retrieve a greeting by ID.
         /// </summary>
-        /// <param name="id">The unique ID of the greeting.</param>
-        /// <returns>The greeting message if found.</returns>
-        [HttpGet]
-        [Route("get-greeting-by-id")]
+        [HttpGet("get/{id}")]
         public IActionResult GetGreetingById(int id)
         {
             try
             {
-                var greeting = _greetingBL.GetGreetingById(id);
+                var greeting = _greetingBL.GetGreetingsByUserId(id);
                 if (greeting == null)
-                {
                     return NotFound(new { Success = false, Message = "Greeting not found" });
-                }
 
                 return Ok(new { Success = true, Message = "Greeting retrieved successfully", Data = greeting });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while retrieving the greeting" });
+                logger.Error(ex, $"Error retrieving greeting for ID: {id}");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
-        [HttpGet]
-        [Route("get-all-greetings")]
-        public IActionResult GetAllGreetings()
+        /// <summary>
+        /// Retrieve all greetings.
+        /// </summary>
+        [HttpGet("get-all")]
+        public async Task<IActionResult> GetAllGreetings()
         {
             try
             {
-                var greetings = _greetingBL.GetAllGreetings();
-                if (greetings == null || greetings.Count == 0)
-                {
+                var greetings = await _greetingBL.GetAllGreetings(); // ? Await the async method
+
+                if (greetings == null || !greetings.Any()) // ? Use Any() instead of Count == 0
                     return NotFound(new { Success = false, Message = "No greetings found" });
-                }
 
                 return Ok(new { Success = true, Message = "Greetings retrieved successfully", Data = greetings });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while retrieving the greetings" });
+                logger.Error(ex, "Error retrieving all greetings.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
+
         /// <summary>
-        /// Updates an existing greeting message.
+        /// Update an existing greeting.
         /// </summary>
-        /// <param name="id">The ID of the greeting.</param>
-        /// <param name="newMessage">The new greeting message.</param>
-        /// <returns>Success or failure message.</returns>
-        [HttpPut]
-        [Route("updategreeting")]
-        public IActionResult UpdateGreeting(int id, string newMessage)
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateGreeting(int id, string newMessage)
         {
             try
             {
-                var isUpdated = _greetingBL.UpdateGreeting(id, newMessage);
+                var isUpdated = await _greetingBL.UpdateGreeting(id, newMessage); // ? Use await
+
                 if (!isUpdated)
                 {
                     return NotFound(new { Success = false, Message = "Greeting not found" });
@@ -130,196 +118,142 @@ namespace HelloGreetingApplication.Controllers
         }
 
         /// <summary>
-        /// Deletes a greeting message by its ID.
+        /// Delete a greeting by ID.
         /// </summary>
-        /// <param name="id">The ID of the greeting to delete.</param>
-        /// <returns>Success or failure message.</returns>
-        [HttpDelete]
-        [Route("delete-greeting-by-id")]
-        public IActionResult DeleteGreetingById(int id)
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteGreetingById(int id)
         {
             try
             {
-                var isDeleted = _greetingBL.DeleteGreeting(id);
+                bool isDeleted = await _greetingBL.DeleteGreeting(id); // ? Use await for async method
+
                 if (!isDeleted)
-                {
                     return NotFound(new { Success = false, Message = "Greeting not found" });
-                }
 
                 return Ok(new { Success = true, Message = "Greeting deleted successfully" });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, $"Error deleting greeting for ID: {id}");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
+
         /// <summary>
-        /// Default GET method to retrieve a greeting message.
+        /// Get a personalized greeting.
         /// </summary>
-        /// <returns>JSON response with a greeting message.</returns>
-        [HttpGet]
-        [Route("get-personalized-greeting")]
-        public IActionResult GetPersonalizedGreeting(string? firstName, string? lastName)
+        [HttpGet("personalized")]
+        public IActionResult GetPersonalizedGreeting([FromQuery] string? firstName, [FromQuery] string? lastName)
         {
             try
             {
-                logger.Info($"GET request received for personalized greeting with FirstName: {firstName}, LastName: {lastName}");
-
+                logger.Info($"Generating personalized greeting for {firstName} {lastName}");
                 string message = _greetingBL.GetGreeting(firstName, lastName);
 
-                ResponseModel<string> responseModel = new ResponseModel<string>
+                return Ok(new ResponseModel<string>
                 {
                     Success = true,
                     Message = "Greeting generated successfully",
                     Data = message
-                };
-
-                return Ok(responseModel);
+                });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
-            }
-        }
-
-
-        /// <summary>
-        /// Get Method to get the greeting message
-        /// </summary>
-        /// <returns>"Hello, World!"</returns>
-        [HttpGet]
-        [Route("get-greeting")]
-        public IActionResult Get()
-        {
-            try
-            {
-                logger.Info("GET request received for greeting.");
-
-                ResponseModel<string> responseModel = new ResponseModel<string>();
-                responseModel.Success = true;
-                responseModel.Message = "Hello to Greeting App API Endpoint";
-                responseModel.Data = "Hello, World!";
-                return Ok(responseModel);
-            }
-            catch (Exception ex)
-            {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, "Error generating personalized greeting.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
         /// <summary>
-        /// Post method to receive request successfully
+        /// Default greeting.
         /// </summary>
-        /// <param name="requestModel"></param>
-        /// <returns>response model</returns>
-        [HttpPost]
-        [Route("post-greeting")]
-        public IActionResult Post(RequestModel requestModel)
+        [HttpGet("default")]
+        public IActionResult GetDefaultGreeting()
         {
             try
             {
-                logger.Info($"POST request received with Key: {requestModel.Key}, Value: {requestModel.Value}");
-
-                ResponseModel<string> responseModel = new ResponseModel<string>();
-                responseModel.Success = true;
-                responseModel.Message = "Request received successfully";
-                responseModel.Data = $"Key: {requestModel.Key}, Value: {requestModel.Value}";
-                return Ok(responseModel);
+                return Ok(new ResponseModel<string>
+                {
+                    Success = true,
+                    Message = "Hello to Greeting App API Endpoint",
+                    Data = "Hello, World!"
+                });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, "Error getting default greeting.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
         /// <summary>
-        /// Put method to receive request successfully
+        /// Process a generic request.
         /// </summary>
-        /// <param name="requestModel"></param>
-        /// <returns>response model</returns>
-        [HttpPut]
-        [Route("update-greeting")]
-        public IActionResult Put(RequestModel requestModel)
+        [HttpPost("process")]
+        public IActionResult Post([FromBody] RequestModel requestModel)
         {
             try
             {
-
-                logger.Info($"PUT request received. Updating greeting to: {requestModel.Value}");
-
-                ResponseModel<string> responseModel = new ResponseModel<string>();
-                responseModel.Success = true;
-                responseModel.Message = "Greeting updated successfully";
-                responseModel.Data = requestModel.Value;
-                return Ok(responseModel);
+                logger.Info($"Processing request: {requestModel.Key} - {requestModel.Value}");
+                return Ok(new ResponseModel<string>
+                {
+                    Success = true,
+                    Message = "Request received successfully",
+                    Data = $"{requestModel.Key}: {requestModel.Value}"
+                });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, "Error processing request.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
         /// <summary>
-        /// Patch method to receive request successfully
+        /// Modify a greeting using PATCH.
         /// </summary>
-        /// <param name="requestModel"></param>
-        /// <returns>response model</returns>
-        [HttpPatch]
-        [Route("modify-greeting")]
-        public IActionResult Patch(RequestModel requestModel)
+        [HttpPatch("modify")]
+        public IActionResult Patch([FromBody] RequestModel requestModel)
         {
             try
             {
-                logger.Info($"PATCH request received. Modifying greeting with: {requestModel.Value}");
-
-                ResponseModel<string> responseModel = new ResponseModel<string>();
-                responseModel.Success = true;
-                responseModel.Message = "Greeting updated successfully";
-                responseModel.Data = requestModel.Value;
-                return Ok(responseModel);
+                logger.Info($"Modifying greeting with: {requestModel.Value}");
+                return Ok(new ResponseModel<string>
+                {
+                    Success = true,
+                    Message = "Greeting modified successfully",
+                    Data = requestModel.Value
+                });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, "Error modifying greeting.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
         }
 
         /// <summary>
-        /// Delete Method to remove the greeting message
+        /// Delete a greeting using DELETE.
         /// </summary>
-        /// <param name="requestModel"></param>
-        /// <returns>response model</returns>
-        [HttpDelete]
-        [Route("delete-greeting")]
-        public IActionResult Delete(RequestModel requestModel)
+        [HttpDelete("delete")]
+        public IActionResult Delete([FromBody] RequestModel requestModel)
         {
             try
             {
-                logger.Info($"DELETE request received. Removing greeting for key: {requestModel.Key}");
-
-                ResponseModel<string> responseModel = new ResponseModel<string>();
-                responseModel.Success = true;
-                responseModel.Message = "Greeting deleting successfully";
-                responseModel.Data = string.Empty;
-                return Ok(responseModel);
+                logger.Info($"Deleting greeting for key: {requestModel.Key}");
+                return Ok(new ResponseModel<string>
+                {
+                    Success = true,
+                    Message = "Greeting deleted successfully",
+                    Data = string.Empty
+                });
             }
             catch (Exception ex)
             {
-                var errorResponse = ExceptionHandler.CreateErrorResponse(ex, logger);
-                return StatusCode(500, new { Success = false, Message = "An error occurred while deleting the greeting" });
+                logger.Error(ex, "Error deleting greeting.");
+                return StatusCode(500, ExceptionHandler.CreateErrorResponse(ex, logger));
             }
-
         }
     }
 }
-
-
-
-
-

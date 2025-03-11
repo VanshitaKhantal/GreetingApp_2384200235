@@ -1,0 +1,349 @@
+2025-03-11 13:18:05.7530 INFO Application is starting...
+2025-03-11 13:18:06.5260 ERROR Application encountered an error and stopped.
+2025-03-11 13:20:35.3213 INFO Application is starting...
+2025-03-11 13:20:36.2237 ERROR Application encountered an error and stopped.
+2025-03-11 13:21:31.4527 INFO Application is starting...
+2025-03-11 13:21:33.3504 ERROR Application encountered an error and stopped.
+2025-03-11 13:22:33.9161 INFO Application is starting...
+2025-03-11 13:22:35.5807 ERROR Application encountered an error and stopped.
+2025-03-11 13:28:35.9827 INFO Application is starting...
+2025-03-11 13:28:36.7166 ERROR Application encountered an error and stopped.
+2025-03-11 13:29:11.0804 INFO Application is starting...
+2025-03-11 13:29:11.7177 ERROR Application encountered an error and stopped.
+2025-03-11 13:32:28.4182 INFO Application is starting...
+2025-03-11 13:32:29.1869 ERROR Application encountered an error and stopped.
+2025-03-11 13:37:29.2809 INFO Application is starting...
+2025-03-11 13:37:30.1342 ERROR Application encountered an error and stopped.
+2025-03-11 13:38:07.8162 INFO Application is starting...
+2025-03-11 13:38:08.3299 ERROR Application encountered an error and stopped.
+2025-03-11 13:39:55.3103 INFO Application is starting...
+2025-03-11 13:39:55.9844 ERROR Application encountered an error and stopped.
+2025-03-11 13:42:48.4086 INFO Application is starting...
+2025-03-11 13:42:48.8509 ERROR Application encountered an error and stopped.
+2025-03-11 13:48:45.7044 INFO Application is starting...
+2025-03-11 13:48:46.5219 ERROR Application encountered an error and stopped.
+2025-03-11 13:49:23.3748 INFO Application is starting...
+2025-03-11 13:49:24.0016 ERROR Application encountered an error and stopped.
+2025-03-11 13:52:35.1320 INFO Application is starting...
+2025-03-11 13:52:35.5687 ERROR Application encountered an error and stopped.
+2025-03-11 13:55:04.4466 INFO Application is starting...
+2025-03-11 13:55:05.0823 ERROR Application encountered an error and stopped.
+2025-03-11 13:58:04.3498 INFO Application is starting...
+2025-03-11 13:58:05.3155 ERROR Application encountered an error and stopped.
+2025-03-11 13:58:42.8160 INFO Application is starting...
+2025-03-11 13:58:43.5327 ERROR Application encountered an error and stopped.
+2025-03-11 13:59:11.5530 INFO Application is starting...
+2025-03-11 13:59:12.0202 ERROR Application encountered an error and stopped.
+2025-03-11 14:00:53.7248 INFO Application is starting...
+2025-03-11 14:00:54.6088 ERROR Application encountered an error and stopped.
+2025-03-11 14:07:40.6291 INFO Application is starting...
+2025-03-11 14:07:41.1289 ERROR Application encountered an error and stopped.
+2025-03-11 14:08:27.4982 INFO Application is starting...
+2025-03-11 14:08:27.9466 ERROR Application encountered an error and stopped.
+2025-03-11 14:16:39.7263 INFO Application is starting...
+2025-03-11 14:16:40.4834 ERROR Application encountered an error and stopped.
+2025-03-11 14:17:40.7034 INFO Application is starting...
+2025-03-11 14:17:41.3758 ERROR Application encountered an error and stopped.
+2025-03-11 14:18:09.9042 INFO Application is starting...
+2025-03-11 14:18:10.4466 ERROR Application encountered an error and stopped.
+2025-03-11 14:25:39.7371 INFO Application is starting...
+2025-03-11 14:25:40.2678 ERROR Application encountered an error and stopped.
+2025-03-11 14:26:08.8085 INFO Application is starting...
+2025-03-11 14:26:09.2877 ERROR Application encountered an error and stopped.
+2025-03-11 15:35:52.5988 INFO Application is starting...
+2025-03-11 15:35:54.4681 ERROR Application encountered an error and stopped.
+2025-03-11 15:38:29.6594 INFO Application is starting...
+2025-03-11 15:38:30.3891 ERROR Application encountered an error and stopped.
+2025-03-11 15:39:03.2697 INFO Application is starting...
+2025-03-11 15:39:03.8181 ERROR Application encountered an error and stopped.
+2025-03-11 15:45:02.3097 INFO Application is starting...
+2025-03-11 15:45:03.5158 ERROR Application encountered an error and stopped.
+2025-03-11 15:46:01.4560 INFO Application is starting...
+2025-03-11 15:46:03.6499 ERROR Application encountered an error and stopped.
+2025-03-11 15:46:21.0612 INFO Application is starting...
+2025-03-11 15:46:21.7519 ERROR Application encountered an error and stopped.
+2025-03-11 15:49:24.8423 INFO Application is starting...
+2025-03-11 15:49:28.6393 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 15:49:29.5694 INFO Now listening on: https://localhost:7112
+2025-03-11 15:49:29.5694 INFO Now listening on: http://localhost:5049
+2025-03-11 15:49:31.0587 INFO Application started. Press Ctrl+C to shut down.
+2025-03-11 15:49:31.1335 INFO Hosting environment: Development
+2025-03-11 15:49:31.2078 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication
+2025-03-11 15:50:01.1547 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - - -
+2025-03-11 15:50:03.5724 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 - text/html;charset=utf-8 2432.4472ms
+2025-03-11 15:50:04.0192 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - -
+2025-03-11 15:50:04.0192 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - - -
+2025-03-11 15:50:04.0340 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - 200 - application/javascript;charset=utf-8 13.7948ms
+2025-03-11 15:50:06.6114 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript;+charset=utf-8 2592.6356ms
+2025-03-11 15:50:06.6114 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - - -
+2025-03-11 15:50:07.2815 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3197.1620ms
+2025-03-11 15:50:07.4248 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - -
+2025-03-11 15:50:07.6095 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 184.5230ms
+2025-03-11 15:51:08.3559 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 104
+2025-03-11 15:51:08.5965 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 15:51:08.6499 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(ModelLayer.Model.UserModel) on controller UserController (HelloGreetingApplication).
+2025-03-11 15:51:11.5819 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-11 15:51:15.3658 INFO Executed DbCommand (392ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-11 15:51:16.6229 ERROR Failed executing DbCommand (230ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [Id], [LastName], [Message], [PasswordHash], [Salt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2025-03-11 15:51:16.8756 ERROR An exception occurred in the database while saving changes for context type 'AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FirstName', table 'GreetingAPI.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6bdb1b30-0b63-4a2d-bda0-d3f2d370ec59
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-11 15:51:17.3423 INFO Executed action UserController.Register (HelloGreetingApplication) in 8672.9552ms
+2025-03-11 15:51:17.3423 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 15:51:17.3863 ERROR An unhandled exception has occurred while executing the request.
+2025-03-11 15:51:17.4991 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 500 - text/plain;+charset=utf-8 9148.8243ms
+2025-03-11 15:52:16.3360 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 60
+2025-03-11 15:52:16.3496 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 15:52:16.3496 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(ModelLayer.Model.UserModel) on controller UserController (HelloGreetingApplication).
+2025-03-11 15:52:16.4128 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-11 15:52:16.4311 INFO Executed DbCommand (11ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-11 15:52:16.4523 ERROR Failed executing DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [Id], [LastName], [Message], [PasswordHash], [Salt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2025-03-11 15:52:16.4614 ERROR An exception occurred in the database while saving changes for context type 'AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FirstName', table 'GreetingAPI.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6bdb1b30-0b63-4a2d-bda0-d3f2d370ec59
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-11 15:52:16.6575 INFO Executed action UserController.Register (HelloGreetingApplication) in 305.0128ms
+2025-03-11 15:52:16.6640 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 15:52:16.6640 ERROR An unhandled exception has occurred while executing the request.
+2025-03-11 15:52:16.6826 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 500 - text/plain;+charset=utf-8 346.8035ms
+2025-03-11 16:07:01.3726 INFO Application is starting...
+2025-03-11 16:07:06.7469 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 16:07:08.8480 INFO Now listening on: https://localhost:7112
+2025-03-11 16:07:08.8480 INFO Now listening on: http://localhost:5049
+2025-03-11 16:07:09.4696 INFO Application started. Press Ctrl+C to shut down.
+2025-03-11 16:07:09.4696 INFO Hosting environment: Development
+2025-03-11 16:07:09.4696 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication
+2025-03-11 16:07:15.1208 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - - -
+2025-03-11 16:07:17.4290 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 - text/html;charset=utf-8 2332.0547ms
+2025-03-11 16:07:17.7749 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - -
+2025-03-11 16:07:17.7945 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - - -
+2025-03-11 16:07:17.8242 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - - -
+2025-03-11 16:07:17.8623 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - 200 - application/javascript;charset=utf-8 68.1146ms
+2025-03-11 16:07:18.3528 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript;+charset=utf-8 577.9189ms
+2025-03-11 16:07:18.6352 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 811.1383ms
+2025-03-11 16:07:18.7554 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - -
+2025-03-11 16:07:19.1299 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 374.1433ms
+2025-03-11 16:08:12.3655 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 104
+2025-03-11 16:08:17.9535 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:08:18.0198 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:08:18.6850 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:08:18.7536 INFO Executed action UserController.Register (HelloGreetingApplication) in 717.1909ms
+2025-03-11 16:08:18.7536 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:08:18.7661 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 6401.5128ms
+2025-03-11 16:09:16.0139 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 133
+2025-03-11 16:09:17.3781 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:09:17.7487 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:09:23.1011 INFO Entity Framework Core 6.0.36 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None
+2025-03-11 16:09:25.0363 INFO Executed DbCommand (152ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-11 16:09:25.8972 ERROR Failed executing DbCommand (67ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [Id], [LastName], [Message], [Password], [Salt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity();
+2025-03-11 16:09:26.1460 ERROR An exception occurred in the database while saving changes for context type 'AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Password'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__189_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ba3586ad-9d26-42db-a875-ecfa4a55c0d7
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-11 16:09:26.4368 INFO Executed action UserController.Register (HelloGreetingApplication) in 7072.5ms
+2025-03-11 16:09:26.4368 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:09:26.4368 ERROR An unhandled exception has occurred while executing the request.
+2025-03-11 16:09:26.5184 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 500 - text/plain;+charset=utf-8 10505.1687ms
+2025-03-11 16:11:18.6031 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 320
+2025-03-11 16:11:18.6094 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:11:18.6094 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:11:18.6786 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:11:18.6786 INFO Executed action UserController.Register (HelloGreetingApplication) in 68.8502ms
+2025-03-11 16:11:18.6786 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:11:18.6866 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 84.0138ms
+2025-03-11 16:13:47.0017 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 320
+2025-03-11 16:13:47.0017 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:13:47.0017 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:13:47.0682 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:13:47.0682 INFO Executed action UserController.Register (HelloGreetingApplication) in 48.303ms
+2025-03-11 16:13:47.0682 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:13:47.0682 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 80.3140ms
+2025-03-11 16:13:54.8172 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 320
+2025-03-11 16:13:55.2534 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:13:55.2770 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:13:55.3087 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:13:55.3087 INFO Executed action UserController.Register (HelloGreetingApplication) in 12.4308ms
+2025-03-11 16:13:55.3186 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:13:55.3186 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 504.1817ms
+2025-03-11 16:16:19.7315 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 322
+2025-03-11 16:16:19.7367 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:16:19.7367 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:16:19.8086 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:16:19.8086 INFO Executed action UserController.Register (HelloGreetingApplication) in 71.4742ms
+2025-03-11 16:16:19.8123 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:16:19.8123 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 81.4928ms
+2025-03-11 16:16:31.6513 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 322
+2025-03-11 16:16:31.6513 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:16:31.6613 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:16:32.2025 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:16:32.2025 INFO Executed action UserController.Register (HelloGreetingApplication) in 538.816ms
+2025-03-11 16:16:32.2100 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:16:32.2100 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 561.1007ms
+2025-03-11 16:17:58.4308 INFO Request starting HTTP/2 POST https://localhost:7112/api/HelloGreeting/save - application/json 80
+2025-03-11 16:17:58.5342 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-11 16:17:58.8868 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveGreeting(Int32, RepositoryLayer.Entity.GreetingEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-11 16:17:58.9206 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:17:58.9206 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 33.5253ms
+2025-03-11 16:17:58.9206 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-11 16:17:58.9206 INFO Request finished HTTP/2 POST https://localhost:7112/api/HelloGreeting/save - 400 - application/problem+json;+charset=utf-8 493.8199ms
+2025-03-11 16:18:17.1662 INFO Request starting HTTP/2 POST https://localhost:7112/api/HelloGreeting/save?userId=1 - application/json 80
+2025-03-11 16:18:17.1706 INFO Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-11 16:18:17.1706 INFO Route matched with {action = "SaveGreeting", controller = "HelloGreeting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveGreeting(Int32, RepositoryLayer.Entity.GreetingEntity) on controller HelloGreetingApplication.Controllers.HelloGreetingController (HelloGreetingApplication).
+2025-03-11 16:18:17.2103 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:18:17.2103 INFO Executed action HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication) in 38.8725ms
+2025-03-11 16:18:17.2103 INFO Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.SaveGreeting (HelloGreetingApplication)'
+2025-03-11 16:18:17.2103 INFO Request finished HTTP/2 POST https://localhost:7112/api/HelloGreeting/save?userId=1 - 400 - application/problem+json;+charset=utf-8 48.2217ms
+2025-03-11 16:18:29.5975 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 322
+2025-03-11 16:18:29.5975 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:18:29.5975 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:18:29.6205 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:18:29.6205 INFO Executed action UserController.Register (HelloGreetingApplication) in 4.6824ms
+2025-03-11 16:18:29.6258 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:18:29.6258 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 38.9020ms
+2025-03-11 16:20:25.1994 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 275
+2025-03-11 16:20:25.1994 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:20:25.1994 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:20:25.3871 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:20:25.3871 INFO Executed action UserController.Register (HelloGreetingApplication) in 167.4498ms
+2025-03-11 16:20:25.3871 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:20:25.3991 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 195.9664ms
+2025-03-11 16:21:46.0365 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 275
+2025-03-11 16:21:46.0568 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:21:46.0568 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:21:46.0621 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:21:46.0621 INFO Executed action UserController.Register (HelloGreetingApplication) in 5.8853ms
+2025-03-11 16:21:46.0621 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:21:46.0621 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 32.5883ms
+2025-03-11 16:24:16.2999 INFO Application is starting...
+2025-03-11 16:24:23.7799 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-11 16:24:29.3701 INFO Now listening on: https://localhost:7112
+2025-03-11 16:24:29.3756 INFO Now listening on: http://localhost:5049
+2025-03-11 16:24:29.9328 INFO Application started. Press Ctrl+C to shut down.
+2025-03-11 16:24:29.9804 INFO Hosting environment: Development
+2025-03-11 16:24:30.0216 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication
+2025-03-11 16:24:35.6253 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - - -
+2025-03-11 16:24:37.7623 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 - text/html;charset=utf-8 2177.5101ms
+2025-03-11 16:24:38.3232 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - -
+2025-03-11 16:24:38.3844 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - - -
+2025-03-11 16:24:38.6334 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - - -
+2025-03-11 16:24:38.8848 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript;+charset=utf-8 561.5428ms
+2025-03-11 16:24:38.9301 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - 200 - application/javascript;charset=utf-8 546.1081ms
+2025-03-11 16:24:40.0696 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1436.5117ms
+2025-03-11 16:24:40.4182 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - -
+2025-03-11 16:24:40.5478 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 129.8298ms
+2025-03-11 16:25:25.5959 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 297
+2025-03-11 16:25:25.9409 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:25:26.0876 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:25:27.2785 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:25:27.4133 INFO Executed action UserController.Register (HelloGreetingApplication) in 1284.2347ms
+2025-03-11 16:25:27.4278 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:25:27.4637 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 1867.9630ms
+2025-03-11 16:27:33.8283 INFO Request starting HTTP/2 POST https://localhost:7112/api/User/register - application/json 294
+2025-03-11 16:27:33.8676 INFO Executing endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:27:33.8876 INFO Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RepositoryLayer.Entity.UserEntity) on controller UserController (HelloGreetingApplication).
+2025-03-11 16:27:33.9170 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-11 16:27:33.9211 INFO Executed action UserController.Register (HelloGreetingApplication) in 29.2193ms
+2025-03-11 16:27:33.9211 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
+2025-03-11 16:27:33.9211 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 98.9576ms

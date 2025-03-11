@@ -1,78 +1,59 @@
-﻿using ModelLayer.Entity;
-using ModelLayer.Model;
+﻿using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
-using RepositoryLayer.Service;
+using BusinessLayer.Interface;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BusinessLayer.Service
 {
-    /// <summary>
-    /// Business Logic Layer (BL) implementation for greeting service.
-    /// </summary>
     public class GreetingBL : IGreetingBL
     {
-        private readonly IGreetingRL _greeting;
+        private readonly IGreetingRL _greetingRL;
 
-        /// <summary>
-        /// Constructor of Business Layer taht passes the reference of Interface
-        /// </summary>
-        /// <param name="greeting"></param>
-        public GreetingBL(IGreetingRL greeting)
+        public GreetingBL(IGreetingRL greetingRL)
         {
-            _greeting = greeting;
+            _greetingRL = greetingRL;
         }
 
-        public void SaveGreeting(string message)
+        public async Task<bool> SaveGreeting(int userId, string message)
         {
-            var greeting = new UserEntity { Message = message };
-            _greeting.SaveGreeting(greeting);
+            if (string.IsNullOrWhiteSpace(message))
+                throw new ArgumentException("Message cannot be empty");
+
+            return await _greetingRL.SaveGreeting(userId, message); // Pass userId and message to repository layer
         }
 
-        /// <summary>
-        /// Retrieves a greeting message by its ID from the repository layer.
-        /// </summary>
-        /// <param name="id">The unique ID of the greeting message.</param>
-        /// <returns>The greeting entity if found, otherwise null.</returns>
-        public UserEntity GetGreetingById(int id)
+        public async Task<GreetingEntity> CreateGreeting(string message, int userId)
         {
-            return _greeting.GetGreetingById(id);
+            var greeting = new GreetingEntity
+            {
+                Message = message,
+                UserId = userId
+            };
+
+            return await _greetingRL.CreateGreeting(greeting);
         }
 
-        /// <summary>
-        /// Retrieves all greeting messages from the repository layer.
-        /// </summary>
-        /// <returns>List of all greeting messages.</returns>
-        public List<UserEntity> GetAllGreetings()
+        public async Task<List<GreetingEntity>> GetGreetingsByUserId(int userId)
         {
-            return _greeting.GetAllGreetings();
+            return await _greetingRL.GetGreetingsByUserId(userId);
         }
 
-        /// <summary>
-        /// Updates a greeting message using the repository layer.
-        /// </summary>
-        /// <param name="id">The ID of the greeting to update.</param>
-        /// <param name="newMessage">The new message content.</param>
-        /// <returns>True if updated successfully, false otherwise.</returns>
-        public bool UpdateGreeting(int id, string newMessage)
+        public async Task<List<GreetingEntity>> GetAllGreetings()
         {
-            return _greeting.UpdateGreeting(id, newMessage);
+            return await _greetingRL.GetAllGreetings();
         }
 
-        /// <summary>
-        /// Deletes a greeting message using the repository layer.
-        /// </summary>
-        /// <param name="id">The ID of the greeting to delete.</param>
-        /// <returns>True if deleted successfully, false otherwise.</returns>
-        public bool DeleteGreeting(int id)
+        public async Task<bool> UpdateGreeting(int id, string newMessage)
         {
-            return _greeting.DeleteGreeting(id);
+            return await _greetingRL.UpdateGreeting(id, newMessage);
         }
 
-        /// <summary>
-        /// Generates a personalized greeting message based on available user attributes.
-        /// </summary>
-        /// <param name="firstName">User's first name (optional).</param>
-        /// <param name="lastName">User's last name (optional).</param>
-        /// <returns>Personalized greeting message.</returns>
+        public async Task<bool> DeleteGreeting(int id)
+        {
+            return await _greetingRL.DeleteGreeting(id);
+        }
+
         public string GetGreeting(string? firstName = null, string? lastName = null)
         {
             if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName))
@@ -91,4 +72,3 @@ namespace BusinessLayer.Service
         }
     }
 }
-

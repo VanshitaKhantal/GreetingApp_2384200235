@@ -1,13 +1,16 @@
-﻿using ModelLayer.Entity;
+﻿using RepositoryLayer.Entity;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace RepositoryLayer.Interface
 {
     public interface IGreetingRL
     {
-        void SaveGreeting(UserEntity greeting);
-        UserEntity GetGreetingById(int id); // New method to retrieve greeting by ID
-        List<UserEntity> GetAllGreetings(); // New method to list all greetings
-        bool UpdateGreeting(int id, string newMessage); // New method to update greeting
-        bool DeleteGreeting(int id); // New method to delete a greeting
+        Task<GreetingEntity> CreateGreeting(GreetingEntity greeting);
+        Task<List<GreetingEntity>> GetGreetingsByUserId(int userId);
+        Task<List<GreetingEntity>> GetAllGreetings();
+        Task<bool> UpdateGreeting(int id, string newMessage);
+        Task<bool> DeleteGreeting(int id);
+        Task<bool> SaveGreeting(int userId, string message);
     }
 }

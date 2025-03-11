@@ -1,16 +1,31 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ModelLayer.Entity
+namespace RepositoryLayer.Entity
 {
     /// <summary>
     /// Represents a user entity stored in the database.
     /// </summary>
     public class UserEntity
     {
-        public int Id { get; set; }
+        [Key]
+        public int UserId { get; set; }
+        //public int Id { get; set; }
+        [Required]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+        [Required]
         public string Email { get; set; }
-        public string PasswordHash { get; set; }
-        public string Salt { get; set; }
-        public string? Message { get; set; }  // Nullable so it's optional
+        [Required]
+        public string Password { get; set; }
+        
+        public string? Salt { get; set; }
+
+        // Navigation Property (One-to-Many Relationship)
+        public ICollection<GreetingEntity> Greetings { get; set; } = new List<GreetingEntity>();
+        public string? Message { get; set; }
+        public int Id { get; internal set; }
     }
 }
