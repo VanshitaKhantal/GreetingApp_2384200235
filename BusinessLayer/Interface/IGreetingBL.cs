@@ -1,18 +1,17 @@
-﻿using ModelLayer.Entity;
-using System;
+﻿using RepositoryLayer.Entity;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-public interface IGreetingBL
+namespace BusinessLayer.Interface
 {
-    /// <summary>
-    /// Generates a personalized greeting message based on user attributes.
-    /// </summary>
-    /// <param name="firstName">User's first name (optional).</param>
-    /// <param name="lastName">User's last name (optional).</param>
-    /// <returns>Personalized greeting message.</returns>
-    string GetGreeting(string? firstName = null, string? lastName = null);
-    void SaveGreeting(string message);
-    UserEntity GetGreetingById(int id); 
-    List<UserEntity> GetAllGreetings(); 
-    bool UpdateGreeting(int id, string newMessage);
-    bool DeleteGreeting(int id); 
+    public interface IGreetingBL
+    {
+        string GetGreeting(string? firstName = null, string? lastName = null);
+        Task<GreetingEntity> CreateGreeting(string message, int userId);
+        Task<List<GreetingEntity>> GetGreetingsByUserId(int userId);
+        Task<List<GreetingEntity>> GetAllGreetings();
+        Task<bool> UpdateGreeting(int id, string newMessage);
+        Task<bool> DeleteGreeting(int id);
+        Task<bool> SaveGreeting(int userId, string message);
+    }
 }
