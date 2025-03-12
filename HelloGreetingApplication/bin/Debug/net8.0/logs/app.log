@@ -347,3 +347,71 @@ Error Number:207,State:1,Class:16
 2025-03-11 16:27:33.9211 INFO Executed action UserController.Register (HelloGreetingApplication) in 29.2193ms
 2025-03-11 16:27:33.9211 INFO Executed endpoint 'UserController.Register (HelloGreetingApplication)'
 2025-03-11 16:27:33.9211 INFO Request finished HTTP/2 POST https://localhost:7112/api/User/register - 400 - application/problem+json;+charset=utf-8 98.9576ms
+2025-03-11 22:16:25.6153 INFO Application is starting...
+2025-03-11 22:16:49.6985 ERROR Application encountered an error and stopped.
+2025-03-12 00:17:16.0390 INFO Application is starting...
+2025-03-12 00:51:39.8255 INFO Application is starting...
+2025-03-12 00:52:10.3328 ERROR Application encountered an error and stopped.
+2025-03-12 01:05:23.2348 INFO Application is starting...
+2025-03-12 01:05:25.8401 ERROR Application encountered an error and stopped.
+2025-03-12 01:13:38.8955 INFO Application is starting...
+2025-03-12 01:14:13.1374 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 01:14:17.2652 INFO Now listening on: https://localhost:7112
+2025-03-12 01:14:17.2652 INFO Now listening on: http://localhost:5049
+2025-03-12 01:14:17.4736 INFO Application started. Press Ctrl+C to shut down.
+2025-03-12 01:14:17.4963 INFO Hosting environment: Development
+2025-03-12 01:14:17.4963 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication
+2025-03-12 01:14:58.0201 INFO Request starting HTTP/2 GET https://localhost:7112/swagger - - -
+2025-03-12 01:14:59.2852 INFO Request finished HTTP/2 GET https://localhost:7112/swagger - 301 0 - 1284.7953ms
+2025-03-12 01:14:59.3638 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - - -
+2025-03-12 01:14:59.5803 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 - text/html;charset=utf-8 216.5604ms
+2025-03-12 01:15:00.0892 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - - -
+2025-03-12 01:15:00.0892 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.css - - -
+2025-03-12 01:15:00.0892 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - - -
+2025-03-12 01:15:00.1260 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - - -
+2025-03-12 01:15:00.1647 INFO Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-12 01:15:00.1752 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.css - 200 202 text/css 81.9334ms
+2025-03-12 01:15:00.1752 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - -
+2025-03-12 01:15:00.1752 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - - -
+2025-03-12 01:15:00.1984 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - 200 - application/javascript;charset=utf-8 19.2043ms
+2025-03-12 01:15:00.5193 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript;+charset=utf-8 340.6134ms
+2025-03-12 01:15:00.5810 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-12 01:15:00.6028 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui.css - 200 154948 text/css 514.2088ms
+2025-03-12 01:15:00.7441 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-12 01:15:00.7441 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 620.4322ms
+2025-03-12 01:15:00.8694 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - - -
+2025-03-12 01:15:01.0700 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-12 01:15:01.0845 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 988.3890ms
+2025-03-12 01:15:02.4059 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1536.7126ms
+2025-03-12 01:15:02.9600 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - -
+2025-03-12 01:15:03.8075 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 847.3692ms
+2025-03-12 13:30:29.9805 INFO Application is starting...
+2025-03-12 13:30:46.5424 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 13:30:48.6160 INFO Now listening on: https://localhost:7112
+2025-03-12 13:30:48.6160 INFO Now listening on: http://localhost:5049
+2025-03-12 13:30:48.8687 INFO Application started. Press Ctrl+C to shut down.
+2025-03-12 13:30:48.8687 INFO Hosting environment: Development
+2025-03-12 13:30:48.8687 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication
+2025-03-12 13:31:02.3701 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - - -
+2025-03-12 13:31:03.8335 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 - text/html;charset=utf-8 1485.6608ms
+2025-03-12 13:31:03.9044 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/index.js - - -
+2025-03-12 13:31:03.9175 INFO Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - - -
+2025-03-12 13:31:03.9940 INFO Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - - -
+2025-03-12 13:31:04.0623 INFO Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 13800 application/javascript;+charset=utf-8 144.4197ms
+2025-03-12 13:31:04.0693 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/index.js - 200 - application/javascript;charset=utf-8 167.4041ms
+2025-03-12 13:31:04.8555 INFO Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 861.5796ms
+2025-03-12 13:31:05.1487 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - - -
+2025-03-12 13:31:05.1980 INFO Request starting HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - - -
+2025-03-12 13:31:05.2639 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-12 13:31:05.2904 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/favicon-32x32.png - 200 628 image/png 92.2749ms
+2025-03-12 13:31:05.3725 INFO Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 223.8657ms
+2025-03-12 13:32:18.0285 INFO Request starting HTTP/2 POST https://localhost:7112/api/RabbitMQ/send - application/json 19
+2025-03-12 13:32:18.5672 INFO Executing endpoint 'HelloGreetingApp.Controllers.RabbitMQController.SendMessage (HelloGreetingApplication)'
+2025-03-12 13:32:18.6380 INFO Route matched with {action = "SendMessage", controller = "RabbitMQ"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(System.String) on controller HelloGreetingApp.Controllers.RabbitMQController (HelloGreetingApplication).
+2025-03-12 13:55:19.0178 INFO Application is starting...
+2025-03-12 13:55:36.9171 INFO User profile is available. Using 'C:\Users\khant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-12 13:55:43.8130 INFO Now listening on: https://localhost:7112
+2025-03-12 13:55:43.8561 INFO Now listening on: http://localhost:5049
+2025-03-12 13:55:44.5347 INFO Application started. Press Ctrl+C to shut down.
+2025-03-12 13:55:44.5993 INFO Hosting environment: Development
+2025-03-12 13:55:44.6798 INFO Content root path: C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication

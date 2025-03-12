@@ -53,8 +53,8 @@
   },
   {
     "ContainingType": "HelloGreetingApplication.Controllers.HelloGreetingController",
-    "Method": "GetGreetingById",
-    "RelativePath": "api/HelloGreeting/get/{id}",
+    "Method": "GetGreeting",
+    "RelativePath": "api/HelloGreeting/get-greeting/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -158,6 +158,22 @@
         "Name": "newMessage",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RabbitMQController",
+    "Method": "SendMessage",
+    "RelativePath": "api/RabbitMQ/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -29,9 +29,13 @@ C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingA
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\MimeKit.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\NLog.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\NLog.Extensions.Logging.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -82,10 +86,10 @@ C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingA
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HelloGreetingApplication.props
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HelloGreetingApplication.props
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\HelloGre.BED6AAB5.Up2Date
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\HelloGreetingApplication.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\refint\HelloGreetingApplication.dll
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\HelloGreetingApplication.pdb
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\HelloGreetingApplication.genruntimeconfig.cache
 C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\ref\HelloGreetingApplication.dll
-C:\Users\khant\OneDrive\Desktop\GLAProject\GreetingApp_2384200235\HelloGreetingApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
