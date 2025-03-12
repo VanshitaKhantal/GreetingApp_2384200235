@@ -46,7 +46,7 @@
         }
       }
     },
-    "/api/HelloGreeting/get/{id}": {
+    "/api/HelloGreeting/get-greeting/{id}": {
       "get": {
         "tags": [
           "HelloGreeting"
@@ -256,6 +256,37 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/RequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RabbitMQ/send": {
+      "post": {
+        "tags": [
+          "RabbitMQ"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
               }
             }
           }
